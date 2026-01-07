@@ -1,0 +1,3241 @@
+﻿   
+.row-fluid {
+        margin-left: 0px;
+    }
+
+    .hpContentWrap .row-fluid {
+        margin-left: 10px;
+    }
+
+.container {
+    width: 1230px;
+}
+
+#oLandingPage #mobileModuleNav ul#module-nav {
+        display: none;
+    }
+
+.navContainer .row .span12 {
+    margin-right: 30px;
+}
+
+@media (min-width: 1200px) {
+    .row-fluid .span4 {
+        width: auto;
+    }
+
+    .row-fluid .span9 {
+        width: auto;
+    }
+
+    img {
+        max-width: initial;
+    }
+
+#oHomePage #module-nav li#myAccount {
+    display: none;
+}
+
+    .span12 .footerModule {
+        display: none;
+    }
+}
+
+#footer .span9 .row {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+@media (max-width: 1200px) {
+    nav ul li a {
+        padding: 14px 12px 11px;
+    }
+
+    nav ul li.last-listItem a {
+        padding: 14px 0 11px 12px;
+        background-position: 46px bottom;
+    }
+        nav ul li.last-listItem a:hover {
+            background-position: 46px bottom;
+        }
+
+    nav ul li a.dblLine {
+        padding: 0 12px 10px;
+    }
+
+    #footer #tweets,
+    #footer .footerModule {
+        width: 196px;
+    }
+
+    .hpContentWrap .row-fluid {
+        margin-left: 10px;
+    }
+}
+/*============================================================================================
+ |                                      TABLET LANDSCAPE STYLES                               |
+  ============================================================================================*/
+
+@media (min-width: 767px) and (max-width: 1199px) {
+    .container {
+        width: 980px;
+        padding-left: 0;
+    }
+
+    #oLeftColumn {
+        width: 190px;
+    }
+
+    #oRightColumn {
+        margin-left: 30px;
+        padding-left: 30px;
+        width: 680px;
+    }
+
+    #oRightColumn #oGalleryWrap {
+        width: 650px;
+        height: 144px;
+        margin-top: 0;
+    }
+
+    #oRightColumn .oGallery {
+        width: 650px;
+        height: 144px;
+    }
+
+    .tn3e-renovo-image {
+        height: 162%;
+        margin-top: -15px;
+    }
+    
+    .row-fluid .span4 {
+        width: 45%;
+    }
+
+    #footer [class*="span"] {
+        margin-left: 0;
+    }
+
+    #navWrapper {
+        max-width: 1000px;
+        width: 1000px;
+        margin-top: -8px;
+        padding-bottom: 8px;
+        left: -10px;
+        z-index: 5000;
+    }
+
+    #oLandingPage #navWrapper {
+        left: -30px;
+    }
+
+    #navWrapper.span11 {
+        margin-left: 0;
+    }
+
+    nav {
+        margin-left: 30px;
+    }
+
+    nav ul li a {
+        font: normal 15px/15px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif;
+        padding: 14px 27px 11px;
+    }
+
+    #myCarousel {
+        width: 680px;
+    }
+
+    .carousel-inner {
+        width: 600px;
+        margin-left: 35px;
+    }
+
+    .row {
+        margin-left: 0;
+    }
+
+    .row-fluid {
+        margin-left: 20px;
+    }
+
+    #header-modules {
+        top: 135px;
+        left: -25px;
+        padding-bottom: 135px;
+    }
+
+    #oLandingPage #header-modules {
+        top: 117px;
+    }
+
+    #bkgrnd-head #head-image {
+        background-position-x: -160px;
+        background-position-y: -20px;
+        height: 387px;
+        margin: -387px auto;
+    }
+
+    .hpLogin {
+        display: none;
+    }
+
+    #bkgrnd-head {
+        height: 387px;
+    }
+
+    #bkgrnd-head #black-white-box {
+        height: 387px;
+    }
+
+    .hpContentWrap {
+        background: #fff url('/images/bg_beige_pattern_tablet.jpg') repeat-x;
+    }
+
+    .hpContentWrap .span3 {
+        width: 468px;
+    }
+
+    .hpContentWrap .span3.hpMiddleModule {
+        border-right: none;
+    }
+
+    .hpContentWrap .span3 .moduleBox {
+        width: 410px;
+        height: 220px;
+        max-width: 100%;
+    }
+
+        .hpContentWrap .span6 {
+            margin-left: 0;
+        }
+
+        .hpContentWrap .span6 {
+            max-width: 100%;
+            width: 100%;
+        }
+
+            .hpContentWrap .span6 .moduleBox {
+                max-width: 100%;
+                width: 813px;
+            }
+
+    #oContentPage .container {
+        padding-left: 0;
+        width: 1000px;
+    }
+
+/*======================================== TABLET FOOTER STYLES ====================================*/
+
+    #tweets {
+        display: none;
+    }
+
+    .footerModule {
+        display: none;
+    }
+
+    #footer .span9 {
+        width: 100%;
+    }
+
+        #footer .span9 .span4 {
+            margin-left: 70px;
+            width: 460px;
+        }
+
+        #footer .span9 .span5 {
+            width: 480px;
+        }
+
+        #footer .span9 .span2 {
+            width: 230px;
+        }
+
+    #footer .footerTabletWrap .footerModule {
+        display: block;
+        margin: 20px 0 20px 30px;
+        width: 853px;
+        max-width: 100%;
+    }
+
+        #footer .footerTabletWrap .footerModule .diggerFloat {
+            float: left;
+            margin-right: 110px;
+        }
+
+            #footer .footerTabletWrap .footerModule .diggerFloat p {
+                margin-bottom: 0;
+                line-height: 18px;
+            }
+
+            #footer .footerTabletWrap .footerModule .diggerFloat.last {
+                margin-right: 0;
+            }
+
+/*========================== TABLET LANDING PAGE =========================*/
+    /*.tn3e-renovo-gallery,
+    .tn3e-renovo-image-ins   {
+        overflow: hidden;
+        height: 163px;
+        width: 700px;
+    }
+
+    #oRightColumn .tn3e-renovo-gallery   {
+        overflow: hidden;
+        height: 163px;
+        width: 663px;
+    }
+
+    #oRightColumn .tn3e-renovo-image-ins {
+        width: 100%;
+        height: 100%;
+    }*/
+
+    #oLandingPage .container {
+        padding-left: 0;
+        width: 1000px;
+    }
+
+
+    .opSearch {
+        margin-right: 30px;
+    }
+
+    #oLandingPage #navInnerPage {
+        display: none;
+    }
+
+    #oLandingPage #header-modules {
+        padding-bottom: 0;
+    }
+
+    #oLandingPage #oRightColumn .row-fluid.mobileMove {
+        position: relative;
+        width: 905px;
+        left: -267px;
+    }
+
+    #oLandingPage .row-fluid .span4 {
+        max-width: 100%;
+        width: 436px;
+    }
+
+    #oLandingPage .opSpotlight {
+        /*position: absolute;*/
+        /*right: -200px;*/
+        top: 0;
+    }
+
+        /*=================================== TABLET BILL READ =======================================*/
+
+    /*a.billReadingTip#tip01 {
+        top: 40px;
+        left: 472px;
+    }
+
+    a.billReadingTip#tip02 {
+        top: 75px;
+        left: -15px;
+    }
+
+    a.billReadingTip#tip03 {
+        top: 124px;
+        left: -15px;
+    }
+
+    a.billReadingTip#tip04 {
+        top: 241px;
+        left: -15px;
+    }
+
+    a.billReadingTip#tip05 {
+        top: 174px;
+        left: 472px;
+    }
+
+    a.billReadingTip#tip06 {
+        top: 276px;
+        left: 472px;
+    }
+
+    a.billReadingTip#tip07 {
+        top: 422px;
+        left: 472px;
+    }
+
+    a.billReadingTip#tip08 {
+        top: 420px;
+        left: 53px;
+    }*/
+
+    .myCustomClass {
+        width: 320px;
+        border-radius: 8px;
+    }
+
+    #qtip-content {
+        box-shadow: #777 0 0 30px;
+    }
+
+    #oBillReadingBusCondensed01,
+    #oBillReadingBusCondensed02 {
+        position: relative;
+    }
+
+    /*#oBillReadingBusCondensed01 a.billReadingTip#tip01 {
+        top: 87px;
+        left: 472px;
+    }
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip02 {
+        top: 150px;
+        left: -15px;
+    }
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip03 {
+        top: 387px;
+        left: 472px;
+    }
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip04 {
+        top: 488px;
+        left: 85px;
+    }
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip05 {
+        top: 477px;
+        left: 472px;
+    }*/
+
+    /*#oBillReadingBusCondensed02 a.billReadingTip#tip01 {
+        top: 63px;
+        left: 465px;
+    }
+
+    #oBillReadingBusCondensed02 a.billReadingTip#tip02 {
+        top: 237px;
+        left: -15px;
+    }*/
+
+    /*#oBillReadingBusSummary01,
+    #oBillReadingBusSummary02 {
+        position: relative;
+    }*/
+
+    /*#oBillReadingBusSummary01 a.billReadingTip#tip01 {
+        top: 87px;
+        left: 472px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip02 {
+        top: 110px;
+        left: -15px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip03 {
+        top: 150px;
+        left: -15px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip04 {
+        top: 212px;
+        left: 472px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip05 {
+        top: 290px;
+        left: 472px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip06 {
+        top: 485px;
+        left: 85px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip07 {
+        top: 485px;
+        left: 472px;
+    }
+
+    #oBillReadingBusSummary02 a.billReadingTip#tip01 {
+        top: 150px;
+        left: -15px;
+    }
+
+    #oBillReadingBusSummary02 a.billReadingTip#tip02 {
+        top: 220px;
+        left: 472px;
+    }
+
+    #oBillReadingBusSummary02 a.billReadingTip#tip03 {
+        top: 220px;
+        left: -15px;
+    }
+
+    #oBillReadingBusSummary02 a.billReadingTip#tip04 {
+        top: 250px;
+        left: 472px;
+    }*/
+
+    /*#oBillReadingBusStreetlight01,
+    #oBillReadingBusStreetlight02 {
+        position: relative;
+    }*/
+
+    /*#oBillReadingBusStreetlight01 a.billReadingTip#tip01 {
+        top: 90px;
+        left: 472px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip02 {
+        top: 125px;
+        left: -15px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip03 {
+        top: 165px;
+        left: -15px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip04 {
+        top: 400px;
+        left: 472px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip05 {
+        top: 482px;
+        left: 472px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip06 {
+        top: 490px;
+        left: 90px;
+    }
+
+    #oBillReadingBusStreetlight02 a.billReadingTip#tip01 {
+        top: 165px;
+        left: -15px;
+    }*/
+
+
+    .orangeButton {
+        background-color: #E66B1E;
+        display: block;
+        width: 120px;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 5px 0 20px;
+        color: #fff;
+    }
+
+    .orangeButton:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /*.oPrevious {
+        float: left;
+    }
+
+    .oNext {
+        float: left;
+        margin-left: 350px;
+    }*/
+
+    .oMap,
+    .oMap.oCavanaugh,
+    .oMap.oMcGuire,
+    .oMap.oGay,
+    .oMap.oMines,
+    .oMap.oUlrich,
+    .oMap.oGreen,
+    .oMap.oBarrett,
+    .oMap.oWeber {
+        background-size: contain;
+        width: 300px;
+        height: 284px;
+    }
+
+    .oMapBoardMember {
+        width: 112px;
+        height: 144px;
+        margin-bottom: 15px;
+    }
+
+    .oMapBoardMember img {
+        width: 80%;
+        height: auto;
+    }
+
+    .oMapWrap p a {
+    font: 400 11px/12px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif;
+    }
+
+    .oMapRightColumn {
+        margin-right: 30px;
+    }
+
+    .slider { width: 800px; height: 300px; }
+
+    #oMonthlyCalc .oMonthlyCalcFields td {
+        line-height: 16px;
+        padding-bottom: 8px;
+    }
+
+    /*~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~ ELECTRIC SERVICES MAP STYLES ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~*/
+
+    .oServiceMapWrap {
+        position: relative;
+    }
+
+    .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap_s2.png) no-repeat;
+    }
+
+    .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap_s3.png) no-repeat;
+    }
+
+    .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap_s4.png) no-repeat;
+    }
+
+    .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap_s5.png) no-repeat;
+    }
+
+    .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap.png) no-repeat;
+        position: relative;
+        width: 624px;
+        height: 670px;
+    }
+
+    .oServiceMapLink {
+        position: absolute;
+        display: block;
+        opacity: 0;
+        z-index: 500;
+    }
+
+    .oServiceLink {
+        position: absolute;
+        display: block;
+        opacity: 0;
+        z-index: 500;
+    }
+
+    .oServiceLinkMetro {
+        text-indent: -9999px;
+        width: 217px;
+        height: 47px;
+        top: 200px;
+        left: 400px;
+    }
+
+    .oServiceMapElkhorn {
+        background: yellow;
+        width: 330px;
+        height: 200px;
+        top: 0;
+        left: 0;
+    }
+
+    .oServiceMapElkhorn:hover ~ .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap_s2.png) no-repeat !important;
+    }
+
+    .oServiceLinkElkhorn {
+        background: yellow;
+        width: 230px;
+        height: 26px;
+        top: 96px;
+        left: 388px;
+    }
+
+    .oServiceLinkElkhorn:hover ~ .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap_s2.png) no-repeat !important;
+    }
+
+    .oServiceMapLouisville {
+        background: orange;
+        width: 288px;
+        height: 107px;
+        top: 200px;
+        left: 74px;
+    }
+
+    .oServiceMapLouisville:hover ~ .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap_s3.png) no-repeat !important;
+    }
+
+    .oServiceLinkLouisville {
+        background: orange;
+        width: 230px;
+        height: 26px;
+        top: 122px;
+        left: 388px;
+    }
+
+    .oServiceLinkLouisville:hover ~ .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap_s3.png) no-repeat !important;
+    }
+
+    .oServiceMapOmaha {
+        background: red;
+        width: 107px;
+        height: 128px;
+        top: 124px;
+        left: 256px;
+    }
+
+    .oServiceMapOmaha:hover ~ .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap_s4.png) no-repeat !important;
+    }
+
+    .oServiceLinkOmaha {
+        background: red;
+        width: 230px;
+        height: 26px;
+        top: 70px;
+        left: 388px;
+    }
+
+    .oServiceLinkOmaha:hover ~ .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap_s4.png) no-repeat !important;
+    }
+
+    .oServiceMapSyracuse {
+        background: pink;
+        width: 365px;
+        height: 354px;
+        top: 307px;
+        left: 147px;
+    }
+
+    .oServiceMapSyracuse:hover ~ .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap_s5.png) no-repeat !important;
+    }
+
+    .oServiceLinkSyracuse {
+        background: pink;
+        width: 230px;
+        height: 26px;
+        top: 148px;
+        left: 388px;
+    }
+
+    .oServiceLinkSyracuse:hover ~ .oServiceMap {
+        background: url(/images/serviceMapTabletImages/ESD-allgrey-swap_s5.png) no-repeat !important;
+    }
+
+    /*~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~ ELECTRIC SERVICES MAP ZOOM STYLES ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~*/
+
+    .oServiceMapWrapZoom {
+        position: relative;
+    }
+
+    .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom_s2.png) no-repeat;
+    }
+
+    .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom_s3.png) no-repeat;
+    }
+
+    .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom_s4.png) no-repeat;
+    }
+
+    .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom_s5.png) no-repeat;
+    }
+
+    .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom.png) no-repeat;
+        position: relative;
+        width: 625px;
+        height: 462px;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapLink {
+        position: absolute;
+        display: block;
+        opacity: 0;
+        z-index: 500;
+    }
+
+    .oServiceMapWrapZoom .oServiceLink {
+        position: absolute;
+        display: block;
+        opacity: 0;
+        z-index: 500;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkMetro {
+        text-indent: -9999px;
+        width: 219px;
+        height: 46px;
+        top: 193px;
+        left: 399px;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapElkhorn {
+        background: yellow;
+        width: 334px;
+        height: 193px;
+        top: 0;
+        left: 0;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapElkhorn:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom_s2.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkElkhorn {
+        background: yellow;
+        width: 222px;
+        height: 24px;
+        top: 94px;
+        left: 398px;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkElkhorn:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom_s2.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapLouisville {
+        background: orange;
+        width: 382px;
+        height: 200px;
+        top: 193px;
+        left: 0px;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapLouisville:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom_s3.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkLouisville {
+        background: orange;
+        width: 222px;
+        height: 24px;
+        top: 118px;
+        left: 398px;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkLouisville:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom_s3.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapOmaha {
+        background: red;
+        width: 183px;
+        height: 230px;
+        top: 50px;
+        left: 200px;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapOmaha:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom_s4.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkOmaha {
+        background: red;
+        width: 222px;
+        height: 24px;
+        top: 70px;
+        left: 398px;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkOmaha:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom_s4.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapSyracuse {
+        background: pink;
+        width: 364px;
+        height: 56px;
+        top: 393px;
+        left: 25px;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapSyracuse:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom_s5.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkSyracuse {
+        background: pink;
+        width: 222px;
+        height: 24px;
+        top: 142px;
+        left: 398px;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkSyracuse:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomTabletImages/ESD-allgrey-zoom_s5.png) no-repeat !important;
+    }
+
+    /*~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~ SERVICE CENTER STYLES ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~*/
+
+    .oServiceDesigner {
+        width: 150px;
+        margin: 0 50px 20px 0;
+    }
+
+    /*~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~ EXECUTIVES STYLES ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~*/
+
+    .oExecutive {
+        width: 208px;
+        margin: 0 0px 30px 0;
+    }
+
+    /*~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~ ARBORETUM MAP TABLET STYLES ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~*/
+
+    /*.qtip-content > div > p.subHead {
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .qtip-content > div > p.listTitle {
+        margin-bottom: 4px;
+        clear: both;
+    }*/
+
+    .qtip-content > div > p.extraLeading {
+        line-height: 15px;
+    }
+
+    /*.qtip-content > div > ul > li {
+        font: 400 12px/16px Arial, Helvetica, sans-serif;
+        list-style: disc;
+        margin-bottom: 8px;
+    }*/
+
+    .qtip-content > div > img {
+        max-width: 50%;
+        float: left;
+    }
+
+    a.arboretumTip {
+        width: 32px;
+        height: 32px;
+        display: block;
+        position: absolute;
+        /*background: red;*/
+        opacity: .5;
+    }
+
+    a.arboretumTip#tip01 {
+        width: 75px;
+        height: 75px;
+        top: 262px;
+        left: 489px;
+    }
+
+    a.arboretumTip#tip02 {
+        width: 75px;
+        height: 75px;
+        top: 399px;
+        left: 502px;
+    }
+
+    a.arboretumTip#tip03 {
+        top: 348px;
+        left: 381px;
+    }
+
+    a.arboretumTip#tip04 {
+        top: 258px;
+        left: 441px;
+    }
+
+    a.arboretumTip#tip05 {
+        top: 211px;
+        left: 454px;
+    }
+
+    a.arboretumTip#tip06 {
+        top: 184px;
+        left: 502px;
+    }
+
+    a.arboretumTip#tip07 {
+        top: 350px;
+        left: 443px;
+    }
+
+    a.arboretumTip#tip08 {
+        top: 420px;
+        left: 441px;
+    }
+
+    a.arboretumTip#tip09 {
+        top: 503px;
+        left: 391px;
+    }
+
+    a.arboretumTip#tip10 {
+        top: 149px;
+        left: 100px;
+    }
+
+    a.arboretumTip#tip11 {
+        top: 185px;
+        left: 206px;
+    }
+
+    a.arboretumTip#tip12 {
+        top: 74px;
+        left: 205px;
+    }
+
+    a.arboretumTip#tip13 {
+        top: 188px;
+        left: 363px;
+    }
+
+    .oArboretumLegend {
+        top: 342px;
+    }
+
+    .oArboretumLegend li a {
+        font-size: 11px;
+        line-height: 11px;
+        padding: 0 0 1px 25px;
+    }
+
+}
+
+/*============================================================================================
+ |                                      TABLET PORTRAIT STYLES                               |
+  ============================================================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    #oContentPage #oRightColumn {
+        margin-left: 0;
+        padding-left: 0;
+        float: none;
+    }
+
+    #oContentPage .container {
+        width: 800px;
+    }
+
+    #oLandingPage .container {
+        padding-left: 0;
+        width: 800px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .navContainer .row .span12 {
+        margin-right: 0;
+    }
+
+    #oLandingPage #oRightColumn .row-fluid.mobileMove {
+        position: relative;
+        width: 750px;
+        left: -60px;
+    }
+
+    #oLandingPage .row-fluid .span4 {
+        width: 345px;
+    }
+
+    #oLandingPage .opSpotlight {
+        /*right: 30px;*/
+    }
+
+    #oContentPage #oppd-logo {
+        position: absolute;
+        top: -117px;
+        left: 15px;
+    }
+
+        #oContentPage #oppd-logo a {
+            width: 90px;
+            height: 64px;
+            background: transparent url(/images/oppd_banner_logo_small.png) no-repeat;
+        }
+
+    #oContentPage #navWrapper {
+        left: -30px;
+    }
+
+    #oContentPage #navInnerPage {
+        display: none;
+    }
+
+    .hpContentWrap {
+        padding-left: 20px;
+    }
+
+    .tn3e-renovo-gallery {
+        width: 480px;
+        margin-left: 100px;
+    }
+
+    .tn3e-renovo-gallery img {
+        margin-left: -140px;
+    } 
+
+    #footerContainer .container {
+        padding-left: 30px;
+    }
+    
+    #footer .span9 .span4 {
+            margin-left: 30px;
+            width: 360px;
+        }
+
+        #footer .span9 .span5 {
+            width: 380px;
+        }
+
+        #footer .span9 .span2 {
+            width: 180px;
+        }
+
+    #footer .footerTabletWrap .footerModule {
+        display: block;
+        margin: 20px 0 20px 30px;
+        width: 653px;
+        max-width: 100%;
+    }
+
+        #footer .footerTabletWrap .footerModule .diggerFloat {
+            float: left;
+            margin-right: 30px;
+        }
+
+    #oContentPage #footer .footerTabletWrap .footerModule {
+        margin-left: -130px;
+    }
+
+    .hpContentWrap .span3 {
+        width: 348px;
+    }
+
+    .hpContentWrap .span3.hpMiddleModule {
+        border-right: none;
+    }
+
+    .hpContentWrap .span3 .moduleBox {
+        width: 280px;
+        height: 250px;
+        max-width: 100%;
+    }
+
+        .hpContentWrap .span6 {
+            margin-left: 0;
+        }
+
+        .hpContentWrap .span6 {
+            max-width: 100%;
+            width: 100%;
+        }
+
+            .hpContentWrap .span6 .moduleBox {
+                max-width: 100%;
+                width: 570px;
+            }
+
+        #oHomePage #footer .footerTabletWrap .footerModule {
+            margin-left: 0;
+        }
+
+    #navWrapper {
+    max-width: 820px;
+    width: 820px;
+    margin-top: 0;
+    padding-bottom: 0;
+    left: -10px;
+    z-index: 5000;
+    }
+
+    #navWrapper.pull-right {
+        margin-left: 0;
+        float: none;
+    }
+
+    #navWrapper.span11 {
+        /*margin-left: 0;*/
+    }
+
+    nav {
+       /*margin-left: -75px;*/ 
+    }
+
+    nav ul li a {
+        font: normal 15px/15px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif;
+        padding: 14px 12px 11px;
+    }
+
+    #navSocial ul li a {
+        padding: 3px 10px 0;
+    }
+
+    .span12 {
+        width: 100%;
+    }
+
+    .span12.pull-right {
+        /*padding-right: 200px;*/
+    }
+
+    #header-modules {
+        top: 135px;
+        left: 10px;
+    }
+
+    #oLandingPage #header-modules,
+    #oContentPage #header-modules {
+        left: -48px;
+    }
+
+    #oRightColumn #oGalleryWrap {
+        width: 800px;
+        height: 160px;
+        margin-left: -60px;
+        margin-top: 36px;
+    }
+
+    #oRightColumn .oGallery {
+        width: 800px;
+        height: 160px;
+    }
+
+    #oLandingPage .span12.pull-right {
+        padding-right: 0px;
+    }
+
+    #oLandingPage nav,
+    #oContentPage nav {
+        margin-left: 30px;
+    }
+
+    #oContentPage .span12.pull-right {
+        padding-right: 0;
+    }
+
+    #oContentPage #header-modules {
+        top: 117px;
+    }
+
+    .oArboretumLegend {
+        top: 358px;
+    }
+
+    .oArboretumLegend li a {
+        font-size: 11px;
+        line-height: 11px;
+        padding: 0 0 1px 25px;
+    }
+
+}
+
+
+/*============================================================================================
+ |                                      MOBILE LANDSCAPE STYLES                               |
+  ============================================================================================*/
+
+@media (min-width: 469px) and (max-width: 767px) {
+    /*body {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #footerContainer,
+    #bkgrnd-content {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    #footer,
+    #bkgrnd-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }*/
+
+    .container {
+        width: 767px;
+    }
+
+    .slider { width: 500px; height: 260px; }
+
+    /*-------------------------------MOBILE NAV STYLES---------------------------*/
+
+    #navWrapper { height: initial; }
+
+    nav {z-index: 5000; height: auto; width: 386px;}
+    nav ul { text-align: left;}
+    nav .navLinks { padding: 0;}
+    nav ul li ul { position: relative; margin: 0; padding: 0; }
+
+    nav ul li {padding: 0; float: none;}
+
+    nav ul li a {display:block; width: 100%; float: none; font: normal 18px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif; 
+                 color:#333; padding: 12px 0 12px 50px; text-transform: uppercase; background: url(/images/nav_arrow.gif) no-repeat 323px; border: none;}
+
+    nav ul li a.selected,
+    nav ul li a:hover {background: url(/images/nav_arrow_selected.gif) no-repeat 323px;}
+
+    nav ul li ul li {background: #EEEBE1; width: 100%; margin-left: 0; border-bottom: 1px dotted #333; padding: 0;}
+
+    nav li ul li.current ul { position: relative; right: initial; background: #fff; top: initial; }
+
+    nav ul li ul li:hover { border: none; }
+
+    nav ul li ul li a { width: 100%; margin-left: 50px; border: none; background: url(/images/mobileMenuOff.png) no-repeat 273px; padding: 12px 0;}
+
+    nav ul li ul li a:hover,
+    nav ul li ul li a.selected { background: url(/images/mobileMenuOn.png) no-repeat 273px; }
+
+    nav ul li ul li ul li { background: #F7F5F1; border-bottom: 1px dotted #333; margin: 0; width: 100%; padding: 0;}
+
+    nav ul li ul li ul li:hover { border-bottom: 1px dotted #333;}
+
+    nav ul li ul li ul li a { width: 100%; margin-left: 30px; background: none;}
+
+    nav ul li ul li ul li a:hover,
+    nav ul li ul li ul li a.selected { background: none; }
+
+    .hidden-phone.visible-sm {
+        display: block !important;
+    }
+
+    .navContainer {
+        position: absolute;
+        width: 295px;
+        height: auto;
+        top: 116px;
+        left: 278px;
+        z-index: 2000;
+    }
+
+    #oHomePage .navContainer {
+        top: 40px;
+    }
+
+    .opCareersLink {
+        background: #fff url(/images/opMobileCareersIcon.png) no-repeat 70px 4px;
+        background-size: 18px;
+        font: normal 14px/14px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif;
+        text-align: left;
+        color: #E66B1E;
+        width: 87px;
+        height: 14px;
+        padding: 7px 0 7px 10px;
+        margin: 0;
+        border-radius: 0;
+        position: absolute;
+        z-index: 6000;
+        left: 0;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    #navSearch {
+        background: #fff url(/images/opMobileSearchIcon.png) no-repeat 70px;
+        font: normal 14px/14px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif;
+        text-align: left;
+        color: #E66B1E;
+        width: 87px;
+        height: 14px;
+        padding: 7px 0 7px 10px;
+        margin: 0;
+        border-radius: 0;
+        position: absolute;
+        z-index: 6000;
+        left: 0;
+        top: 38px;
+    }
+
+    .opSearch {
+        position: absolute;
+        top: 36px;
+        left: 93px;
+    }
+
+    .opSearch .opSearchPadding {
+        padding-top: 0;
+    }
+
+    #navSocial {
+        display: none;
+    }
+
+    #mainNavBtn {
+        background: #fff url(/images/opMobileMenuIcon.png) no-repeat 70px;
+        font: normal 14px/14px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif;
+        text-align: left;
+        color: #E66B1E;
+        width: 77px;
+        height: 14px;
+        padding: 7px 0 7px 20px;
+        margin: 0;
+        border-radius: 0;
+        position: absolute;
+    }
+
+    .contactButton a {
+        background: #fff url(/images/navContactPhoneIcon.png) no-repeat right center;
+        font: normal 14px/14px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        text-align: left;
+        color: #E66B1E;
+        width: 87px;
+        height: 14px;
+        padding: 7px 0 7px 10px;
+        margin: 0;
+        border-radius: 0;
+        position: absolute;
+    }
+
+    .contactButton a:hover {
+        text-decoration: none;
+    }
+
+    #oHomePage .contactButton a {
+        top: 0;
+        left: 0;
+    }
+
+    #oHomePage #mainNavBtn {
+        top: 38px;
+        left: 0;
+    }
+
+    #navWrapper {
+        position: absolute;
+        top: 76px;
+        left: 0;
+        width: 430px;
+    }
+
+    .mainNav {
+        background-color: #fff;
+        position: relative;
+        z-index: 5000;
+        top: 78px;
+    }
+
+    .showHideMainNav {
+        display: none;
+    }
+
+    .showHideMobileNav {
+        display: block;
+    }
+
+    #bkgrnd-head {
+        height: 365px;
+    }
+
+    #bkgrnd-head #head-image {
+        margin-top: -365px;
+        max-width: 768px;
+        height: 600px;
+    }
+
+    #bkgrnd-head #black-white-box {
+        height: 365px;
+    }
+
+    .moduleSigninBox {
+        display: none;
+        background-color: #000;
+        position: absolute;
+        right: 0;
+        bottom: -260px;
+    }
+    .hpContentWrap .row-fluid {
+        margin-left: -10px;
+    }
+
+    .hpContentWrap .span3 {
+        width: 100%;
+        border: none;
+    }
+
+    .hpContentWrap .span3 .moduleBox {
+        height: auto;
+        width: 500px;
+        max-width: 500px;
+        margin: 30px 0 0 30px;
+        float: left;
+    }
+
+    .moduleBox {
+        background: none;
+        background-color: #EBE7DB;
+    }
+
+    .hpContentWrap .span6 {
+        width: 500px;
+    }
+
+    .hpContentWrap .span6 .moduleBox {
+        width: 424px;
+        max-width: 500px;
+        margin: 30px 0 0 30px;
+        padding: 20px 50px 20px 60px;
+    }
+
+    #bkgrnd-content {
+        background-position: 0 0;
+    }
+
+    #navInnerPage {
+        position: relative;
+    }
+
+    #navInnerPage .boxbkgrnd {
+        display: none;
+    }
+
+    #navInnerPage .callOut {
+        display: none;
+        position: absolute;
+        left: 245px;
+        top: -176px;
+    }
+
+    #oLandingPage ul#module-nav,
+    #oContentPage ul#module-nav {
+        position: relative;
+    }
+
+    #oRightColumn #oGalleryWrap {
+        width: 580px;
+        height: 345px;
+    }
+
+    #oRightColumn .oLandingPage .oGallery {
+        display: none;
+        margin: 66px 0 0 -15px;
+    }
+
+    #oRightColumn img {
+        max-width: 500px;
+    }
+
+    #oRightColumn .oBillReadingWrap {
+        margin-left: 40px;
+        width: 430px;
+    }
+
+    #oRightColumn .oBillReadingWrap img {
+        width: 400px;
+    }
+
+    .tn3e-renovo-gallery {
+        width: 660px;
+        height: 185px;
+    }
+
+    .tn3e-renovo-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .anythingSlider-default .anythingControls {
+        right: 120px;
+    }
+
+    #oLeftColumn {
+        
+    }
+
+    #oLandingPage #oRightColumn {
+        padding-left: 0;
+    }
+
+    #oContentPage #oRightColumn {
+        margin-left: 0;
+        width: 500px;
+        padding-top: 160px;
+    }
+
+    #oLeftColumn #header-modules {
+        position: absolute;
+    }
+
+    #oContentPage .oMainContent.span9 {
+        margin-top: 196px;
+        width: 500px;
+    }
+
+    #oContentPage #bkgrnd-content {
+        background-position: top;
+    }
+
+    #oContentPage .navContainer {
+        top: 116px;
+        height: 78px;
+    }
+    
+    #oLandingPage .mainNav,
+    #oContentPage .mainNav {
+        top: 38px;
+    }
+
+    #oLandingPage .span4.moduleBox {
+        max-width: initial;
+        margin-left: 25px !important;
+        width: 500px;
+    }
+
+    form .opSearch input[type="text"] {
+        width: 135px;
+    }
+
+    .oMainContent h1 {
+        font-size: 48px;
+        line-height: 51px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .oMainContent h2 {
+        font-size: 40px;
+        line-height: 43px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .oMainContent h3 {
+        font-size: 30px;
+        line-height: 33px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .oServiceMapWrap,
+    .oServiceMapWrapZoom {
+        margin-left: 60px;
+    }
+
+    
+    .oServiceMapWrapZoom {
+        height: 250px;
+    }
+
+    #oRightColumn #oArboretumMap {
+        margin-left: 40px;
+    }
+
+    #oRightColumn #oArboretumMap img {
+        width: 400px;
+    }
+
+    #oRightColumn #oArboretumMap .oArboretumLegend {
+        top: 220px;
+        left: 12px;
+    }
+
+    #oRightColumn #oArboretumMap .oArboretumLegend li a {
+        font-size: 7px;
+        line-height: 7px;
+        padding: 1px 0 0 0;
+    }
+
+    #footer {
+        min-height: initial;
+    }
+
+    #footerContainer .footerTabletWrap {
+        display: none;
+    }
+
+    #footerContainer .span9,
+    #footerContainer .span3 {
+        display: none;
+    }
+
+    #footerContainer .footerPhoneWrap {
+        width: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    #myCarousel {
+        display: none;
+    }
+
+    #header-modules {
+        top: 117px;
+        left: 10px;
+    }
+
+    #navWrapper.pull-right {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .span4.moduleBox {
+        width: 470px;
+        margin-left: 310px;
+    }
+
+    .offset3.span4.moduleBox {
+        margin-left: 310px;
+    }
+
+    .row-fluid {
+        margin-left: 0;
+    }
+
+    [class*="span"] {
+        margin-left: 0;
+    }
+
+    #footer #tweets,
+    #footer .footerModule {
+        width: 150px;
+    }
+    #footer .span2 {
+        width: 150px;
+        float: left;
+    }
+    #bkgrnd-head #head-image {
+        background-position-x: -210px;
+    }
+}
+
+@media (min-width: 469px) and (max-width: 767px) {
+    body {
+        padding: 0;
+    }
+    #oppd-logo a {
+    }
+
+    /*#module-nav {
+        position: absolute;
+        right: -290px;
+        top: -150px;
+    }*/
+
+    .span4.moduleBox {
+        width: 470px;
+        margin-left: 5px !important;
+    }
+
+    .span3 {
+        width: 600px;
+        max-width: 600px;
+    }
+}
+
+
+@media (max-width: 767px) {
+            /*=================================== Mobile BILL READ =======================================*/
+
+    a.billReadingTip {
+    background: url(/images/oBillReadingTipIconMobile.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    }
+
+    a.billReadingTip#tip01 {
+        top: 33px;
+        left: 374px;
+    }
+
+    a.billReadingTip#tip02 {
+        top: 60px;
+        left: -9px;
+    }
+
+    a.billReadingTip#tip03 {
+        top: 102px;
+        left: -9px;
+    }
+
+    a.billReadingTip#tip04 {
+        top: 170px;
+        left: -9px;
+    }
+
+    a.billReadingTip#tip05 {
+        top: 143px;
+        left: 374px;
+    }
+
+    a.billReadingTip#tip06 {
+        top: 238px;
+        left: 374px;
+    }
+
+    a.billReadingTip#tip07 {
+        top: 345px;
+        left: 2px;
+    }
+
+    a.billReadingTip#tip08 {
+        top: 350px;
+        left: 50px;
+    }
+
+    .myCustomClass {
+        width: 260px;
+        border-radius: 8px;
+    }
+
+    #qtip-content {
+        box-shadow: #777 0 0 18px;
+    }
+
+    /*#oBillReadingBusCondensed01, #oBillReadingBusCondensed02*/
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip01 {
+        top: 81px;
+        left: 374px;
+    }
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip02 {
+        top: 139px;
+        left: -9px;
+    }
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip03 {
+        top: 326px;
+        left: 372px;
+    }
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip04 {
+        top: 412px;
+        left: 75px;
+    }
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip05 {
+        top: 407px;
+        left: 2px;
+    }
+
+    #oBillReadingBusCondensed02 a.billReadingTip#tip01 {
+        top: 75px;
+        left: -9px;
+    }
+
+    #oBillReadingBusCondensed02 a.billReadingTip#tip02 {
+        top: 211px;
+        left: -9px;
+    }
+
+    /*#oBillReadingBusSummary01, #oBillReadingBusSummary02*/
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip01 {
+        top: 81px;
+        left: 374px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip02 {
+        top: 108px;
+        left: -9px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip03 {
+        top: 154px;
+        left: -9px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip04 {
+        top: 184px;
+        left: 374px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip05 {
+        top: 242px;
+        left: 374px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip06 {
+        top: 414px;
+        left: 75px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip07 {
+        top: 406px;
+        left: 2px;
+    }
+
+    #oBillReadingBusSummary02 a.billReadingTip#tip01 {
+        top: 139px;
+        left: -9px;
+    }
+
+    #oBillReadingBusSummary02 a.billReadingTip#tip02 {
+        top: 190px;
+        left: 367px;
+    }
+
+    #oBillReadingBusSummary02 a.billReadingTip#tip03 {
+        top: 211px;
+        left: -9px;
+    }
+
+    #oBillReadingBusSummary02 a.billReadingTip#tip04 {
+        top: 223px;
+        left: 367px;
+    }
+
+    /*#oBillReadingBusStreetlight01, #oBillReadingBusStreetlight02*/
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip01 {
+        top: 80px;
+        left: 180px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip02 {
+        top: 110px;
+        left: -9px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip03 {
+        top: 150px;
+        left: -9px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip04 {
+        top: 345px;
+        left: 200px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip05 {
+        top: 403px;
+        left: 2px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip06 {
+        top: 412px;
+        left: 75px;
+    }
+
+    #oBillReadingBusStreetlight02 a.billReadingTip#tip01 {
+        top: 140px;
+        left: -9px;
+    }
+
+
+    .orangeButton {
+        background-color: #E66B1E;
+        display: block;
+        width: 70px;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 5px 0 20px;
+        color: #fff;
+    }
+
+    .orangeButton:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /*.oPrevious {
+        float: left;
+    }*/
+
+    .oNext {
+        margin-left: 322px;
+    }
+
+    .oMap,
+    .oMap.oCavanaugh,
+    .oMap.oMcGuire,
+    .oMap.oGay,
+    .oMap.oMines,
+    .oMap.oUlrich,
+    .oMap.oGreen,
+    .oMap.oBarrett,
+    .oMap.oWeber {
+        background-size: contain;
+        width: 300px;
+        height: 284px;
+    }
+
+    .oMapBoardMember {
+        float: left;
+        width: 138px;
+    }
+
+    .oMapRightColumn,
+    .oMapLeftColumn {
+        margin-left: 0;
+    }
+
+    .aeWrap {
+
+    }
+
+    .aeWrap img {
+        float: none;
+    }
+
+    .aeBio {
+        float: none;
+        margin: 0 0 15px 0;
+        border-right: none;
+        min-height: initial;
+        min-width: initial;
+    }
+
+    .aeExpertise {
+        float: none;
+        width: 260px;
+        margin: 0 0 15px 0;
+    }
+    /*=================================== Mobile MONTHLY CALCULATOR =======================================*/
+
+    #oMonthlyCalc .oMonthlyCalcFields td {
+        position: relative;
+        padding-bottom: 12px;
+        line-height: 16px;
+    }
+
+    #oMonthlyCalc .oMonthlyCalcFields td span {
+        position: absolute;
+        top: 5px;
+    }
+
+    #oMonthlyCalc input[type=text] {
+        margin-left: 11px;
+    }
+
+       /*~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~ ELECTRIC SERVICES MAP STYLES ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~*/
+
+    .oServiceMapWrap {
+        position: relative;
+    }
+
+    .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap_s2.png) no-repeat;
+    }
+
+    .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap_s3.png) no-repeat;
+    }
+
+    .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap_s4.png) no-repeat;
+    }
+
+    .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap_s5.png) no-repeat;
+    }
+
+    .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap.png) no-repeat;
+        position: relative;
+        width: 340px;
+        height: 380px;
+    }
+
+    .oServiceMapLink {
+        position: absolute;
+        display: block;
+        opacity: 0;
+        z-index: 500;
+    }
+
+    .oServiceLink {
+        position: absolute;
+        display: block;
+        opacity: 0;
+        z-index: 500;
+    }
+
+    .oServiceLinkMetro {
+        text-indent: -9999px;
+        width: 119px;
+        height: 31px;
+        top: 107px;
+        left: 220px;
+    }
+
+    .oServiceMapElkhorn {
+        width: 184px;
+        height: 110px;
+        top: 0;
+        left: 0;
+    }
+
+    .oServiceMapElkhorn:hover ~ .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap_s2.png) no-repeat !important;
+    }
+
+    .oServiceLinkElkhorn {
+        width: 126px;
+        height: 14px;
+        top: 53px;
+        left: 214px;
+    }
+
+    .oServiceLinkElkhorn:hover ~ .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap_s2.png) no-repeat !important;
+    }
+
+    .oServiceMapLouisville {
+        width: 161px;
+        height: 60px;
+        top: 110px;
+        left: 39px;
+    }
+
+    .oServiceMapLouisville:hover ~ .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap_s3.png) no-repeat !important;
+    }
+
+    .oServiceLinkLouisville {
+        width: 126px;
+        height: 14px;
+        top: 67px;
+        left: 214px;
+    }
+
+    .oServiceLinkLouisville:hover ~ .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap_s3.png) no-repeat !important;
+    }
+
+    .oServiceMapOmaha {
+        width: 60px;
+        height: 68px;
+        top: 69px;
+        left: 140px;
+    }
+
+    .oServiceMapOmaha:hover ~ .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap_s4.png) no-repeat !important;
+    }
+
+    .oServiceLinkOmaha {
+        width: 126px;
+        height: 14px;
+        top: 39px;
+        left: 214px;
+    }
+
+    .oServiceLinkOmaha:hover ~ .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap_s4.png) no-repeat !important;
+    }
+
+    .oServiceMapSyracuse {
+        width: 197px;
+        height: 193px;
+        top: 170px;
+        left: 81px;
+    }
+
+    .oServiceMapSyracuse:hover ~ .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap_s5.png) no-repeat !important;
+    }
+
+    .oServiceLinkSyracuse {
+        width: 126px;
+        height: 14px;
+        top: 81px;
+        left: 214px;
+    }
+
+    .oServiceLinkSyracuse:hover ~ .oServiceMap {
+        background: url(/images/serviceMapMobileImages/ESD-allgrey-swap_s5.png) no-repeat !important;
+    }
+
+        /*~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~ ELECTRIC SERVICES MAP ZOOM STYLES ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~*/
+
+    .oServiceMapWrapZoom {
+        position: relative;
+    }
+
+    .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom_s2.png) no-repeat;
+    }
+
+    .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom_s3.png) no-repeat;
+    }
+
+    .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom_s4.png) no-repeat;
+    }
+
+    .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom_s5.png) no-repeat;
+    }
+
+    .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom.png) no-repeat;
+        position: relative;
+        width: 625px;
+        height: 462px;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapLink {
+        position: absolute;
+        display: block;
+        opacity: 0;
+        z-index: 500;
+    }
+
+    .oServiceMapWrapZoom .oServiceLink {
+        position: absolute;
+        display: block;
+        opacity: 0;
+        z-index: 500;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkMetro {
+        text-indent: -9999px;
+        width: 110px;
+        height: 29px;
+        top: 104px;
+        left: 220px;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapElkhorn {
+        width: 183px;
+        height: 107px;
+        top: 0;
+        left: 0;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapElkhorn:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom_s2.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkElkhorn {
+        width: 122px;
+        height: 13px;
+        top: 51px;
+        left: 218px;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkElkhorn:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom_s2.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapLouisville {
+        width: 209px;
+        height: 109px;
+        top: 107px;
+        left: 0px;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapLouisville:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom_s3.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkLouisville {
+        width: 122px;
+        height: 13px;
+        top: 64px;
+        left: 218px;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkLouisville:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom_s3.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapOmaha {
+        width: 102px;
+        height: 129px;
+        top: 28px;
+        left: 108px;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapOmaha:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom_s4.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkOmaha {
+        width: 122px;
+        height: 13px;
+        top: 38px;
+        left: 218px;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkOmaha:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom_s4.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapSyracuse {
+        width: 201px;
+        height: 31px;
+        top: 215px;
+        left: 12px;
+    }
+
+    .oServiceMapWrapZoom .oServiceMapSyracuse:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom_s5.png) no-repeat !important;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkSyracuse {
+        width: 122px;
+        height: 13px;
+        top: 77px;
+        left: 218px;
+    }
+
+    .oServiceMapWrapZoom .oServiceLinkSyracuse:hover ~ .oServiceMapZoom {
+        background: url(/images/serviceZoomMobileImages/ESD-allgrey-zoom_s5.png) no-repeat !important;
+    }
+
+    /*~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~ SERVICE CENTER STYLES ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~*/
+
+    .oServiceDesigner {
+        width: 140px;
+        margin: 0 0 20px 0;
+    }
+
+    .oServiceDesigner.oServiceSuper {
+        margin: 0 auto 20px auto;
+    }
+
+    .oMainContent h3 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 0;
+    }
+
+    /*~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~ EXECUTIVES STYLES ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~*/
+
+    .oExecutive {
+        float: none;
+        width: 200px;
+        margin: 0 auto 30px;
+    }
+
+        /*~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~ ARBORETUM MAP STYLES ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~*/
+
+    .qtip-content > div > p.extraLeading {
+        line-height: 15px;
+    }
+
+    .qtip-content > div > img {
+        max-width: 50%;
+        float: left;
+    }
+
+    a.arboretumTip {
+        width: 24px;
+        height: 24px;
+        display: block;
+        position: absolute;
+    }
+
+    a.arboretumTip#tip01 {
+        width: 38px;
+        height: 38px;
+        top: 168px;
+        left: 318px;
+    }
+
+    a.arboretumTip#tip02 {
+        width: 38px;
+        height: 38px;
+        top: 264px;
+        left: 330px;
+    }
+
+    a.arboretumTip#tip03 {
+        top: 221px;
+        left: 241px;
+    }
+
+    a.arboretumTip#tip04 {
+        top: 165px;
+        left: 283px;
+    }
+
+    a.arboretumTip#tip05 {
+        top: 131px;
+        left: 288px;
+    }
+
+    a.arboretumTip#tip06 {
+        top: 116px;
+        left: 321px;
+    }
+
+    a.arboretumTip#tip07 {
+        top: 222px;
+        left: 281px;
+    }
+
+    a.arboretumTip#tip08 {
+        top: 268px;
+        left: 282px;
+    }
+
+    a.arboretumTip#tip09 {
+        top: 322px;
+        left: 248px;
+    }
+
+    a.arboretumTip#tip10 {
+        top: 94px;
+        left: 62px;
+    }
+
+    a.arboretumTip#tip11 {
+        top: 117px;
+        left: 129px;
+    }
+
+    a.arboretumTip#tip12 {
+        top: 47px;
+        left: 130px;
+    }
+
+    a.arboretumTip#tip13 {
+        top: 119px;
+        left: 231px;
+    }
+
+    /*~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~ LEFT & RIGHT COLUMN STYLES ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~*/
+
+    .oCmsLeftColumn {
+        float: none !important;
+        width: 80% !important;
+        box-sizing: border-box !important;
+        padding: 0 !important;
+        border: none !important;
+    }
+
+    .oCmsRightColumn  {
+        float: none !important;
+        width: 80% !important;
+        box-sizing: border-box !important;
+        padding: 0 !important;
+        border: none !important;
+    }
+	
+	.oConsultingLeftColumn {
+        float: none;
+        width: 80%;
+        box-sizing: border-box;
+        padding: 0;
+        border: none;
+    }
+
+    .oConsultingRightColumn  {
+        float: none;
+        width: 80%;
+        box-sizing: border-box;
+        padding: 0;
+        border: none;
+    }
+	
+	.oRebatesLeftColumn1 {
+	    float: none;
+        width: 80%;
+        box-sizing: border-box;
+        padding: 0;
+        border: none;
+	}
+	
+	.oRebatesRightColumn1 {
+	    float: none;
+        width: 80%;
+        box-sizing: border-box;
+        padding: 0;
+        border: none;
+	}
+	
+	.oRebatesLeftColumn2 {
+	    float: none;
+        width: 80%;
+        box-sizing: border-box;
+        padding: 0;
+        border: none;
+	}
+	
+	.oRebatesRightColumn2 {
+	    float: none;
+        width: 80%;
+        box-sizing: border-box;
+        padding: 0;
+        border: none;
+	}
+	
+	.oRebatesText {
+		font-size: 1em;
+	}
+	
+	.oRebatesTextBold {
+		font-size: 1em;
+		margin: -53px 0px 25px 25px
+	}
+	
+	.oRebatesHeader h3 {
+		margin-top: 20px;	
+	}
+	
+	.oRebatesYellowBox {
+		min-height: 180px;
+	}
+	
+	.oRebatesYellowBoxButton {
+		margin: -4px 35px 0px 0px;
+	}
+
+/*============================================================================================
+ |                                      MOBILE PORTRAIT STYLES                               |
+  ============================================================================================*/
+
+@media (max-width: 468px) {
+    body {
+        padding: 0;
+    }
+
+    #oHomePage {
+        width: 320px;
+    }
+
+    .container {
+        width: 320px;
+    }
+
+    #bkgrnd-content {
+        padding-left: 0;
+    }
+
+    .showHideMainNav {
+        display: none;
+    }
+
+    .slider {
+        width: 200px;
+        height: 270px;
+    }
+
+    .showHideMobileNav {
+        display: block;
+    }
+
+    #header-modules {
+        width: 320px;
+        height: auto;
+        top: 0;
+        left: 0;
+    }
+
+    .headerModulesWrap {
+        top: 150px;
+    }
+
+    .hpContentWrap .container .row-fluid {
+        background: none;
+    }
+
+    .hidden-phone.visible-sm {
+        display: none !important;
+    }
+
+    #bkgrnd-head #black-white-box {
+        display: none;
+    }
+
+    ul#module-nav { padding-left: 0;}
+
+    #mainNavBtn {
+        background: #fff url(/images/opMobileMenuIcon.png) no-repeat 70px;
+        font: normal 14px/14px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif;
+        text-align: left;
+        color: #E66B1E;
+        width: 77px;
+        height: 14px;
+        padding: 7px 0 7px 20px;
+        margin: 0;
+        border-radius: 0;
+        position: absolute;
+    }
+
+    .contactButton a {
+        background: #fff url(/images/navContactPhoneIcon.png) no-repeat right center;
+        font: normal 14px/14px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        text-align: left;
+        color: #E66B1E;
+        width: 87px;
+        height: 14px;
+        padding: 7px 0 7px 10px;
+        margin: 0;
+        border-radius: 0;
+        position: absolute;
+    }
+
+        .contactButton a:hover {
+            text-decoration: none;
+        }
+
+    #oHomePage .contactButton a {
+        top: 0;
+        left: 0;
+    }
+
+    #oHomePage #mainNavBtn {
+        top: 33px;
+        left: 0px;
+    }
+
+    #oLandingPage .contactButton,
+    #oContentPage .contactButton {
+        display: none !important;
+    }
+
+    #oLandingPage .opCareersLink,
+    #oContentPage .opCareersLink {
+        display: none !important;
+    }
+
+    #oLandingPage #navWrapper,
+    #oContentPage #navWrapper {
+        top: 20px;
+        left: 208px;
+    }
+
+    .hpLogin {
+        display: none;
+    }
+
+    #oRightColumn #oGalleryWrap,
+    #oRightColumn .oGallery {
+        display: none !important;
+    }
+
+    [class*="span"] {
+        margin-left: 5px;
+    }
+
+    .span4.moduleBox {
+        width: 280px;
+        margin-left: 0;
+    }
+
+    .offset3.span4.moduleBox {
+        width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navContainer .row .span12 {
+        margin: 0;
+    }
+
+    .navContainer .row .span12.pull-right {
+        float: none;
+    }
+
+    #navInnerPage {
+        display: none;
+    }
+
+    #navSocial {
+        display: none;
+    }
+
+    .navContainer {
+        position: relative;
+    }
+
+    #navWrapper {
+        position: absolute;
+        top: 65px;
+        left: 208px;
+        z-index: 5000;
+        width: 112px;
+        height: 86px;
+        max-width: 320px;
+    }
+
+    .mainNav {
+        background-color: #fff;
+        position: relative;
+        z-index: 5000;
+        top: 86px;
+        left: -208px;
+    }
+
+    #oLandingPage .mainNav,
+    #oContentPage .mainNav {
+        top: 70px;
+    }
+
+    .opCareersLink {
+        background: #fff url(/images/opMobileCareersIcon.png) no-repeat 70px 4px;
+        background-size: 18px;
+        font: normal 14px/14px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif;
+        text-align: left;
+        color: #E66B1E;
+        width: 87px;
+        height: 14px;
+        padding: 7px 0 7px 10px;
+        margin: 0;
+        border-radius: 0;
+        position: absolute;
+        z-index: 6000;
+        left: 208px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    #navSearch {
+        background: #fff url(/images/opMobileSearchIcon.png) no-repeat 70px;
+        font: normal 14px/14px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif;
+        text-align: left;
+        color: #E66B1E;
+        width: 87px;
+        height: 14px;
+        padding: 7px 0 7px 10px;
+        margin: 0;
+        border-radius: 0;
+        position: absolute;
+        z-index: 6000;
+    }
+
+    #oHomePage #navSearch {
+        top: 33px;
+        left: 208px;
+    }
+
+    #oLandingPage #navSearch,
+    #oContentPage #navSearch {
+        top: 20px;
+        left: 105px;
+    }
+
+    .opSearch {
+        background-color: #fff;
+        position: absolute;
+        /*width: 360px;*/
+        z-index: 5000;
+        top: 70px;
+        right: 10px;
+    }
+
+    #oHomePage .opSearch {
+        top: 140px;
+    }
+
+    nav ul li {
+        background: none;
+        border-bottom: 1px solid #EEE;
+        width: 320px;
+        text-align: left;
+        padding: 10px 0;
+        float: none;
+    }
+
+    #headerShadow {
+        display: none;
+    }
+
+    #bkgrnd-content {
+        background-position: 0 0;
+    }
+
+    .mobileMove {
+        padding-top: 130px;
+        position: relative;
+    }
+
+    #oLandingPage ul#module-nav,
+    #oContentPage ul#module-nav {
+        display: none;
+    }
+
+    #oLandingPage #mobileModuleNav ul#module-nav {
+        display: block;
+        margin: 20px 0 0 10px;
+    }
+
+        #oLandingPage #mobileModuleNav ul#module-nav li {
+            width: 310px;
+        }
+
+    #oContentPage .oMainContent h1 {
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 25px;
+        width: 300px;
+    }
+
+    #oRightColumn {
+        padding-left: 10px;
+        width: 300px;
+        float: none;
+    }
+
+    #module-nav li {
+        width: 310px;
+    }
+
+    #bkgrnd-head {
+        margin-bottom: -150px;
+    }
+
+        #bkgrnd-head #head-image {
+            background: #fff url('/images/bg_beige_pattern.jpg') repeat-x;
+            margin-left: 0;
+            width: 320px;
+            margin: 0;
+        }
+
+    .hpContentWrap {
+        background: none;
+    }
+
+        .hpContentWrap .span3 {
+            border: none;
+            padding-right: 0;
+            width: 100%;
+        }
+
+    .moduleBox {
+        background: none;
+        background-color: #EBE7DB;
+    }
+
+    .hpContentWrap .span3 .moduleBox {
+        width: 260px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .hpContentWrap .span6 {
+        width: 320px;
+    }
+
+    .hpContentWrap .span6 .moduleBox {
+        padding: 20px 18px 20px 45px;
+        width: 230px;
+        margin-left: 0;
+    }
+
+    #footer {
+        min-height: initial;
+    }
+
+        #footer .span9,
+        #footer .span3,
+        #footer .footerTabletWrap {
+            display: none;
+        }
+
+        .footerPhoneWrap {
+            padding: 0;
+            margin: -10px 0 0 0;
+            width: 320px;
+        }
+
+    /*#footer #tweets,
+    #footer .footerModule {
+        margin: 0 auto 15px;
+        width: 280px;
+        display: none;
+    }
+    #footer .span2 {
+        width: 150px;
+        float: left;
+    }*/
+
+    /*-------------------------------MOBILE NAV STYLES---------------------------*/
+
+    nav { z-index: 5000; height: auto; }
+    nav .navLinks { padding: 0; }
+    nav ul li ul { position: relative; margin: 0; padding: 0; }
+
+        nav ul li {
+            padding: 0;
+        }
+
+            nav ul li a {
+                display: block;
+                width: 100%;
+                float: none;
+                font: normal 18px 'franklin_gothic_fs_bookRg', Arial, Helvetica, sans-serif;
+                color: #333;
+                padding: 12px 0 12px 50px;
+                text-transform: uppercase;
+                background: url(/images/nav_arrow.gif) no-repeat 290px;
+                border: none;
+            }
+
+                nav ul li a.selected,
+                nav ul li a:hover {
+                    background: url(/images/nav_arrow_selected.gif) no-repeat 290px;
+                }
+
+            nav ul li ul li {
+                background: #EEEBE1;
+                width: 100%;
+                margin-left: 0;
+                border-bottom: 1px dotted #333;
+                padding: 0;
+            }
+
+        nav li ul li.current ul {
+            position: relative;
+            right: initial;
+            background: #fff;
+            top: initial;
+        }
+
+        nav ul li ul li:hover {
+            border: none;
+        }
+
+        nav ul li ul li a {
+            width: 100%;
+            margin-left: 50px;
+            border: none;
+            background: url(/images/mobileMenuOff.png) no-repeat 240px;
+            padding: 12px 0;
+        }
+
+            nav ul li ul li a:hover,
+            nav ul li ul li a.selected {
+                background: url(/images/mobileMenuOn.png) no-repeat 240px;
+            }
+
+        nav ul li ul li ul li {
+            background: #F7F5F1;
+            border-bottom: 1px dotted #333;
+            margin: 0;
+            width: 100%;
+            padding: 0;
+        }
+
+            nav ul li ul li ul li:hover {
+                border-bottom: 1px dotted #333;
+            }
+
+            nav ul li ul li ul li a {
+                width: 100%;
+                margin-left: 30px;
+                background: none;
+            }
+
+                nav ul li ul li ul li a:hover,
+                nav ul li ul li ul li a.selected {
+                    background: none;
+                }
+            /*=================================== Mobile BILL READ =======================================*/
+
+    a.billReadingTip {
+    background: url(/images/oBillReadingTipIconMobile.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    }
+
+    a.billReadingTip#tip01 {
+        top: 17px;
+        left: 259px;
+    }
+
+    a.billReadingTip#tip02 {
+        top: 38px;
+        left: -9px;
+    }
+
+    a.billReadingTip#tip03 {
+        top: 65px;
+        left: -9px;
+    }
+
+    a.billReadingTip#tip04 {
+        top: 118px;
+        left: -9px;
+    }
+
+    a.billReadingTip#tip05 {
+        top: 100px;
+        left: 259px;
+    }
+
+    a.billReadingTip#tip06 {
+        top: 160px;
+        left: 259px;
+    }
+
+    a.billReadingTip#tip07 {
+        top: 237px;
+        left: 2px;
+    }
+
+    a.billReadingTip#tip08 {
+        top: 242px;
+        left: 30px;
+    }
+
+    .myCustomClass {
+        width: 260px;
+        border-radius: 8px;
+    }
+
+    #qtip-content {
+        box-shadow: #777 0 0 18px;
+    }
+
+    /*#oBillReadingBusCondensed01, #oBillReadingBusCondensed02*/
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip01 {
+        top: 67px;
+        left: 259px;
+    }
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip02 {
+        top: 108px;
+        left: -9px;
+    }
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip03 {
+        top: 245px;
+        left: 259px;
+    }
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip04 {
+        top: 299px;
+        left: 47px;
+    }
+
+    #oBillReadingBusCondensed01 a.billReadingTip#tip05 {
+        top: 292px;
+        left: 2px;
+    }
+
+    #oBillReadingBusCondensed02 a.billReadingTip#tip01 {
+        top: 66px;
+        left: -9px;
+    }
+
+    #oBillReadingBusCondensed02 a.billReadingTip#tip02 {
+        top: 187px;
+        left: -9px;
+    }
+
+    /*#oBillReadingBusSummary01, #oBillReadingBusSummary02*/
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip01 {
+        top: 65px;
+        left: 259px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip02 {
+        top: 88px;
+        left: -9px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip03 {
+        top: 117px;
+        left: -9px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip04 {
+        top: 145px;
+        left: 259px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip05 {
+        top: 184px;
+        left: 259px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip06 {
+        top: 299px;
+        left: 47px;
+    }
+
+    #oBillReadingBusSummary01 a.billReadingTip#tip07 {
+        top: 292px;
+        left: 2px;
+    }
+
+    #oBillReadingBusSummary02 a.billReadingTip#tip01 {
+        top: 106px;
+        left: -9px;
+    }
+
+    #oBillReadingBusSummary02 a.billReadingTip#tip02 {
+        top: 144px;
+        left: 259px;
+    }
+
+    #oBillReadingBusSummary02 a.billReadingTip#tip03 {
+        top: 154px;
+        left: -9px;
+    }
+
+    #oBillReadingBusSummary02 a.billReadingTip#tip04 {
+        top: 169px;
+        left: 259px;
+    }
+
+    /*#oBillReadingBusStreetlight01, #oBillReadingBusStreetlight02*/
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip01 {
+        top: 70px;
+        left: 259px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip02 {
+        top: 88px;
+        left: -9px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip03 {
+        top: 115px;
+        left: -9px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip04 {
+        top: 252px;
+        left: 259px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip05 {
+        top: 294px;
+        left: 2px;
+    }
+
+    #oBillReadingBusStreetlight01 a.billReadingTip#tip06 {
+        top: 299px;
+        left: 47px;
+    }
+
+    #oBillReadingBusStreetlight02 a.billReadingTip#tip01 {
+        top: 107px;
+        left: -9px;
+    }
+
+
+    .orangeButton {
+        background-color: #E66B1E;
+        display: block;
+        width: 70px;
+        padding: 4px;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 5px 0 20px;
+        color: #fff;
+    }
+
+    .orangeButton:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /*.oPrevious {
+        float: left;
+    }*/
+
+    .oNext {
+        margin-left: 217px;
+    }
+            /*~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~ ARBORETUM MAP TABLET STYLES ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~*/
+
+    .qtip-content > div > p.extraLeading {
+        line-height: 15px;
+    }
+
+    .qtip-content > div > img {
+        max-width: 50%;
+        float: left;
+    }
+
+    a.arboretumTip {
+        width: 20px;
+        height: 20px;
+        display: block;
+        position: absolute;
+    }
+
+    a.arboretumTip#tip01 {
+        width: 32px;
+        height: 32px;
+        top: 117px;
+        left: 219px;
+    }
+
+    a.arboretumTip#tip02 {
+        width: 32px;
+        height: 32px;
+        top: 179px;
+        left: 226px;
+    }
+
+    a.arboretumTip#tip03 {
+        top: 153px;
+        left: 168px;
+    }
+
+    a.arboretumTip#tip04 {
+        top: 113px;
+        left: 196px;
+    }
+
+    a.arboretumTip#tip05 {
+        top: 92px;
+        left: 201px;
+    }
+
+    a.arboretumTip#tip06 {
+        top: 79px;
+        left: 222px;
+    }
+
+    a.arboretumTip#tip07 {
+        top: 153px;
+        left: 195px;
+    }
+
+    a.arboretumTip#tip08 {
+        top: 185px;
+        left: 195px;
+    }
+
+    a.arboretumTip#tip09 {
+        top: 222px;
+        left: 172px;
+    }
+
+    a.arboretumTip#tip10 {
+        top: 64px;
+        left: 42px;
+    }
+
+    a.arboretumTip#tip11 {
+        top: 79px;
+        left: 90px;
+    }
+
+    a.arboretumTip#tip12 {
+        top: 29px;
+        left: 90px;
+    }
+
+    a.arboretumTip#tip13 {
+        top: 81px;
+        left: 159px;
+    }
+}

@@ -1,0 +1,226 @@
+/*
+ * Macro Electric Residential Rate Calculator
+ *
+ *
+ *
+ */
+.CalculatorWidgetWrapper {
+    float: right;
+    width: 56%;
+}
+
+.oerrcCalculator {
+    padding: 0px 20px;
+    border-bottom: none;
+    color: #444444;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Step 1 - Input Table
+------------------------------ */
+
+.oerrcTable {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.oerrcHeader {
+    background-color: black;
+    text-align: center;
+}
+
+    .oerrcHeader h2 {
+        color: white;
+        font-size: 1em;
+        margin: 5px 0px;
+    }
+
+.oerrcRow {
+    border-bottom: 1px solid black;
+}
+
+    .oerrcRow input[type="text"] {
+        border-radius: 0;
+        font: 400 12px/18px Arial,Helvetica,sans-serif;
+        padding: 5px;
+        text-align: left;
+        width: 80%;
+        margin: 0px;
+    }
+
+.oerrcCol1 {
+    width: 26%;
+    padding: 2% 4%;
+}
+
+.oerrcCol2 {
+    width: 68%;
+    padding: 1% 2%;
+}
+
+.oerrcCol1 {
+    background-color: #f3f1e9;
+    font-weight: bold;
+    text-align: left;
+}
+
+input.oerrcButton {
+    width: 100%;
+    background-color: #e66b1e;
+    border: medium none;
+    color: #fff;
+    font: 400 25px/25px "franklin_gothic_fs_bookRg",Arial,Helvetica,sans-serif;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+
+/* Step 2 - Results Table
+------------------------------ */
+
+#oppdTableResults {
+    display: none;
+}
+
+.oerrcTableResults {
+}
+
+    .oerrcTableResults .oerrcRow input[type="text"] {
+        border: none;
+        background-color: white;
+        text-align: right;
+        margin: 0px;
+    }
+
+    .oerrcTableResults .oerrcCol1 {
+        width: 20%;
+        padding: 2% 4%;
+        text-align: left;
+    }
+
+    .oerrcTableResults .oerrcCol2,
+    .oerrcTableResults .oerrcCol3,
+    .oerrcTableResults .oerrcCol4 {
+        width: 23%;
+        padding: 1%;
+        text-align: left;
+    }
+
+
+
+
+/* Modal BootStrap
+------------------------------ */
+
+.myModalOPPDLink {
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+}
+
+    .myModalOPPDLink img {
+        vertical-align: middle;
+        box-shadow: none;
+        margin: 0 5px;
+    }
+
+#myModalOPPD {
+    font-size: 10px;
+}
+
+    #myModalOPPD h3 {
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #myModalOPPD .close {
+        font-size: 13px;
+        margin: 10px;
+    }
+
+    #myModalOPPD .modal-body {
+        max-height: 600px;
+    }
+
+        #myModalOPPD .modal-body .oppdGraph {
+            float: right;
+            width: 280px;
+            margin-left: 15px;
+        }
+
+            #myModalOPPD .modal-body .oppdGraph img {
+                width: 250px;
+            }
+
+
+
+
+/*
+==================================================
+               Media Queries             
+==================================================
+*/
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .CalculatorWidgetWrapper {
+        clear: both;
+        width: 100%;
+    }
+
+    .oerrcCalculator {
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+}

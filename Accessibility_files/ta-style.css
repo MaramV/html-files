@@ -1,0 +1,1307 @@
+
+.showHideMainNavTA {
+    display: block;
+}
+
+.showHideMobileNavTA {
+    display: none;
+}
+
+.close-mobile-menuTA {
+    color: #000;
+}
+
+.navTA {
+    float: right !important;
+}
+
+
+.navContainerTA {
+    margin: 0 auto;
+    height: 143px;
+    background-color: #fff;
+}
+
+.navContainerTA .header-container {
+    display: inline-block;
+    width: calc(100% - 250px);
+}
+
+.navContainer .navbar-brandTA {
+    display: inline-block;
+    width: 200px;
+    height: 142px;
+    vertical-align: top;
+    text-align: center;
+    padding: 0;
+}
+
+#navWrapperTA.nav-container {
+    padding-top: 30px;
+}
+
+#navWrapperTA a {
+    text-decoration: underline !important;
+}
+
+#navWrapperTA a:after {
+    display: none !important;
+
+}
+
+#oppd-logo-ta img {
+    margin-top: 30px;
+    height: 60px;
+}
+
+.oMainContentTA {
+    /* margin-top: -120px; */
+    min-height: 500px;
+    box-sizing: border-box;
+}
+
+.oMainContentTA * {
+    box-sizing: border-box;
+}
+
+.oMainContentTA h1 {
+	color: #FFF;
+	font-size: 72px;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.oMainContentTA * {
+    box-sizing: border-box;
+}
+.oMainContentTA  h2 {
+	color: #F7B647;
+	font-size: 28px;
+    font-weight: 400;
+    text-transform: none;
+	line-height: 1.2em;
+}
+
+.oMainContentTA  p {
+	color: #000;
+	font-size: 16px !important;
+    font-weight: 400;
+    text-transform: none;
+	line-height: 1.2em;
+}
+
+.oMainContentTA button {
+    background-color: #E46B1F !important;
+    color: #FFF;
+    font-size: 14px !important;
+    border: none;
+    border-radius: 35px;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.oMainContentTA .buttonwhite {
+    background-color: #FFF;
+    color: #E96D1C;;
+    font-size: 22px;
+    border: none;
+    border-radius: 35px;
+    padding: 20px 60px 20px 60px;
+}
+
+.oMainContentTA .buttonwhiteborder {
+    background-color: #FFF !important;
+    color: #E96D1C;
+    /* font-size: 22px; */
+    border: 1px solid #E96D1C;
+    border-radius: 35px;
+    /* padding: 20px 60px 20px 60px; */
+}
+
+.oMainContentTA li{
+	font-size: 18px;
+    line-height: 24px;
+	padding: 5px;
+}
+
+.oMainContentTA ol li::marker {
+    color: #E46B1F;
+    font-weight: 600;
+}
+
+.oMainContentTA ul li::marker {
+	list-style-type: disc;
+    color: #000;
+    font-weight: 600;
+}
+
+.column2TAwide .span1 {
+    width: 0;
+}
+
+.column2TAwide .span5 {
+    width: 45%;
+	height: 500px;
+}
+
+.column2TAwidetier .span5 {
+    width: 44%;
+}
+
+.column2TAwidetier .span1 {
+    width: 2%;
+}
+
+.taLightGrayBox .span1 {
+    width: 0;
+}
+
+.taLightGrayBox .span5 {
+    width: 45%;
+}
+
+.taLightGrayBox .span1 {
+    width: 0;
+}
+
+.borderTA {
+	border-right: 3px solid #E3E3E3;
+}
+
+.darkerborderTA {
+	border-right: 3px solid #BBBFBF;
+}
+
+.darkHR hr {
+	margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #ffffff;
+}
+
+.buttonalignTA {
+	margin-left: 25%
+}
+	
+.span4TA .borderTA {
+	height: 290px;
+}
+
+.span4TA .darkerborderTA {
+	height: 330px;
+}
+
+.containerTA {
+    margin-bottom: -30px;
+    min-height: 500px;
+}
+
+.imageHeaderTA {
+    background-image: url(/images/ta/trade_ally_contractors.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 120px;
+    min-height: 700px;
+    position: relative;
+}
+
+.imageHeaderDirTA {
+    background-image: url(/images/ta/ta_directory_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 120px;
+    min-height: 700px;
+    position: relative;
+}
+
+.TAtextbackground {
+    background: rgba(233, 109, 28, 0.6);
+    /* opacity: 0.6; */
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+    height: 80%;
+    border-radius: 50px 50px 50px 50px;
+	padding: 30px;
+	width: 500px;
+}
+
+.TAtextbackground .buttonwhite {
+    background-color: #FFF;
+    color: #E96D1C;;
+    font-size: 22px;
+    border: none;
+    border-radius: 35px;
+    padding: 20px 60px 20px 60px;
+}
+
+.TAtextbackground hr {
+    width: 50px;
+    border-top: 5px solid #fff;
+    margin-top: -15px;
+}
+
+.TAhubtext {
+    /* background-color: #FFF; */
+    /* color: #E96D1C;; */
+    /* font-size: 22px; */
+    /* border: none; */
+    /* border-radius: 35px; */
+    /* padding: 20px 60px 20px 60px; */
+}
+
+.TAhubtext h2 {
+	font-size: 28px;
+	color: #D4AF37 !important;
+}
+
+.TAhubtext button {
+    background-color: #E46B1F !important;
+    color: #FFF;
+    font-size: 16px !important;
+    border: none;
+    border-radius: 35px;
+    padding: 10px 15px 10px 15px !important;
+}
+
+.TAhubtext img {
+    width: 300px;
+	position: absolute;
+	top: 54px;
+	right: -300px;
+}
+
+.imageHeaderTABackground {
+    background-color: #E96D1C;
+    opacity: 0.6;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 50px 0px 20px 0px;
+    height: 80%;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.imageHeaderTAText {
+    color: #FFF;
+    font-size: 28px;
+    line-height: 35px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 60px 20px 20px 40px;
+}
+
+.imageHeaderTASubtext {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.imageHeaderTAText hr {
+    width: 50px;
+}
+
+.imageHeaderTAText h1 {
+    line-height: 65px;
+}
+
+#oLeftColumnTA {
+    width: 300px;
+    background: #f7f7f7;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    min-height: 1000px;
+   
+}
+
+#oLeftColumnTA ul {
+    padding: 0;
+    margin: 0 0 10px 20px;
+
+}
+
+#oLeftColumnTA li {
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 28px 0;
+}
+
+#oLeftColumnTA hr {
+    width: 100px;
+    border-top: 2px solid #e66b1e;
+    margin-top: -15px;
+
+}
+
+#oLeftColumnTA .active {
+    color: #e66b1e;
+    font-weight: 600;
+
+}
+
+
+
+#oRightColumnTA {
+    width: calc(70% - 296px);
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 40px 40px 45px;
+}
+
+#oRightColumnTA p {
+    font-size: 16px;
+	line-height: .9;
+}
+
+#oRightColumnTA h2 {
+    font-size: 22px;
+	line-height: .9;
+}
+
+#oRightColumnTA h3 {
+    font-size: 18px;
+	line-height: .9;
+}
+
+#footerTA {
+    color: #fff;
+    min-height: 100px;
+    padding: 35px 0;
+}
+
+.footerTAText {
+    margin-left: 500px;
+    margin-top: -52px;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column2TA {
+    float: left;
+    /* width: 50%; */
+    padding: 50px;
+    font-size: 22px;
+    line-height: 1.5em;
+    border-right: 3px solid #F2F2F2;
+    height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.column2TA.rates1 {
+    border-right: none;
+    background-image: url(/images/ta/circle-outline.svg);
+    background-repeat: no-repeat;
+    background-size: 330px;
+	height: 550px;
+    background-position: center top 90%;
+}
+
+.column2TA.rates2 {
+    border-right: none;
+    background-image: url(/images/ta/circle-outline.svg);
+    background-repeat: no-repeat;
+    background-size: 330px;
+	height: 550px;
+    background-position: center top 90%;
+}
+
+.noBorder {
+    border-right: none;
+}
+
+/* Clear floats after the columns */
+.row2TA:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column2TA {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/* Create three equal columns that floats next to each other */
+
+.column3TA {
+  float: left;
+  width: 33.33%;
+}
+
+.row3TA {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+/* Clear floats after the columns */
+.row3TA:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.span4TA {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: 0px;
+	clear: both;
+}
+
+.span4TA .span4 {
+	width: 33%;
+	margin-left: 0px;
+}
+
+.graybackgroundTA  {
+	background-color: #E3E3E3;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column3TA {
+    width: 100%;
+  }
+}
+
+.column3TA-v2 {
+    float: left;
+    /* width: 33.33%; */
+    border-right: 3px solid #F2F2F2;
+    padding: 10px;
+}
+
+.column3TA-v2:last-child {
+    border: none;
+}
+
+.row3TA-v2 {
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+    display: block
+}
+
+    /* Clear floats after the columns */
+.row3TA-v2:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column3TA-v2 {
+        width: 100%;
+    }
+}
+
+.column4TA {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row4TA:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column4TA {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+.textBox4col {
+    min-height: 500px;
+    background-color: #E5E5E5;
+    color: #000;
+    border-radius: 25px;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    padding-bottom: 35px;
+	margin-left: -20px;
+    padding: 5px;
+}
+
+/*Five Column Layout*/
+
+
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.col5 img {
+    padding-bottom: 20px;
+}
+
+.textBoxGray {
+	background-color: #E5E5E5;
+}
+
+.buttonrowTA {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Slide Down Info Tabs */
+
+.taTierBox {
+    background-color: #E3E3E3;
+    border-radius: 12px;
+    font-size: 22px;
+    width: 350px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding: 10px;
+	margin-bottom: 20px;
+}
+
+.taTierBox #expand, #expand2, #expand3 {
+	float: right;
+}
+
+.taTierBox #expand {
+	position: relative;
+	top: -73px;
+	left: -30px;
+}
+
+.taTierBox #expand2 {
+	position: relative;
+	top: -80px;
+	left: -30px;
+}
+
+.taTierBox #expand3 {
+	position: relative;
+	top: -80px;
+	left: -30px;
+}
+
+.tiericon {
+	display: flex;
+	margin-left: 20px;
+	margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.tiertxt {
+	position: relative;
+    top: -50px;
+	left: 15px;
+    line-height: 25px;
+}
+
+.tierLabel {
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+}
+
+.taTierBox li {
+    font-size: 16px;
+    text-align: left;
+    line-height: 22px;
+}
+
+.bordertierTA {
+	border-right: 3px solid #E3E3E3;
+    height: 600px;
+}
+
+
+    /* Static Info Tabs */
+.taBox {
+    background-color: #FFF;
+    border-radius: 12px;
+    font-size: 16px;
+    max-width: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    height: 250px;
+}
+
+.taBox li {
+    font-size: 14px;
+    padding: 5px;
+    text-align: left;
+	line-height: 18px;
+}
+
+.taBox ul {
+    padding-top: 10px;
+    padding-left:15px;
+}
+
+.taGrayBox .span1{
+    width: 0;
+}
+
+.taGrayBox .span5{
+    width: 44%;
+}
+
+.taGrayBox .span10{
+    width: 90%;
+}
+
+.taGrayBoxa .span1{
+    width: 0;
+}
+
+.taGrayBoxa .span5{
+    width: 44%;
+}
+
+.taGrayBoxa .span10{
+    width: 90%;
+}
+
+.taGrayBox {
+    background-color: #4b4a4b;
+    padding-bottom: 30px;
+    color: #fff;
+    text-align: left;
+	/* border-radius: 35px; */
+}
+
+
+.taGrayBox p {
+    color: #fff;
+}
+
+.taGrayBox .taLogo {
+    float: right;
+    max-width: 500px;
+    margin-top: -60px;
+}
+
+.taGrayBoxa {
+    background-color: #4b4a4b;
+    padding-bottom: 30px;
+    color: #fff;
+    text-align: left;
+}
+
+.taGrayBoxa hr{
+	width: 80%;
+    margin: auto;
+    margin-bottom: -30px;
+}
+
+
+.taGrayBoxa p {
+    color: #fff;
+}
+
+.taGrayBoxa .taLogo {
+    float: right;
+    max-width: 500px;
+    margin-top: -60px;
+}
+
+.taGrayBox2 {
+    background-color: #4b4a4b;
+    padding-bottom: 40px;
+    color: #fff;
+	clear: both;
+	border-radius: 35px 35px 0px 0px;
+}
+
+.taGrayBox2a {
+    background-color: #4b4a4b;
+    padding-bottom: 40px;
+    color: #fff;
+	clear: both;
+}
+
+.taGrayBox2 p{
+    color: #fff;
+}
+
+.taGrayBox2a p{
+    color: #fff;
+}
+
+
+.taGrayBox2 .span1 {
+    width: 0;
+}
+
+.taGrayBox2a .span1 {
+    width: 0;
+}
+
+.taGrayBox2 .span12 {
+    width: 96%;
+}
+
+.taGrayBox2a .span12 {
+    width: 96%;
+}
+
+.taGrayBox2 hr {
+    width: 200px;
+}
+
+.taGrayBox2a hr {
+    width: 200px;
+}
+
+.taGrayBox3 {
+    background-color: #4b4a4b;
+    padding-bottom: 40px;
+    color: #fff;
+	clear: both;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.taGrayBox3 p{
+    color: #fff;
+}
+
+.taGrayBox3 .span1 {
+    width: 0;
+}
+
+.taGrayBox3 .span5 {
+    width: 44%;
+}
+
+.taGrayBox3a {
+    background-color: #4b4a4b;
+    padding-bottom: 40px;
+    color: #fff;
+	clear: both;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.taGrayBox3a p{
+    color: #fff;
+}
+
+.taGrayBox3a .span1 {
+    width: 0;
+}
+
+.taGrayBox3a .span5 {
+    width: 44%;
+}
+
+.taGrayBox4 .span5 {
+    width: 44%;
+}
+
+.taGrayBox4a .span5 {
+    width: 44%;
+}
+
+
+.taGrayBox4 {
+    background-color: #4b4a4b;
+    padding-bottom: 40px;
+    color: #fff;
+	clear: both;
+	border-radius: 0px 0px 35px 35px;
+}
+
+.taGrayBox4 p{
+    color: #fff;
+}
+
+.taGrayBox4 .span1 {
+    width: 0;
+}
+
+.taGrayBox4 .span5 {
+    width: 44%;
+}
+
+
+.taGrayBox4a {
+    background-color: #4b4a4b;
+    padding-bottom: 40px;
+    color: #fff;
+	clear: both;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.taGrayBox4a p{
+    color: #fff;
+}
+
+.taGrayBox4a .span1 {
+    width: 0;
+}
+
+.taGrayBox5 {
+	text-align: center;
+	background-color: #4a4a4a;
+	padding: 20px;
+	clear: both;
+	border-radius: 35px 35px 35px 35px;
+	color: #fff;
+}
+
+
+.taLightGrayBox {
+    background-color: #e3e3e3;
+	padding-bottom: 65px;
+	border-radius: 35px 35px 0px 0px;
+}
+
+.taLightGrayBox2 {
+    background-color: #e3e3e3;
+	padding-top: 30px;
+	border-radius: 0px 0px 35px 35px;
+}
+
+.taLightGrayBox2 .container-fluid{
+	margin-left: 25px;
+}
+
+.taLightGrayBox2 .span3{
+	height: 325px;
+}
+
+.taWhiteBox {
+    min-height: 200px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 35px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.taWhiteBox2 {
+    text-align: center;
+    margin-top: 80px;
+    padding: 100px;
+}
+
+.cbox1 {
+    background-image: url(/images/ta/solar_card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 545px;
+}
+
+.cbox2 {
+    background-image: url(/images/ta/hvac_card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 545px;
+}
+
+.cbox3 {
+    background-image: url(/images/ta/lighting_card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 545px;
+}
+
+.cboxText1 {
+    margin-top: 50px;
+}
+
+.cboxText2 {
+    margin-top: 50px;
+    width: 100px;
+}
+
+.solarRatesTA {
+    margin-top: 165px;
+}
+
+.solarRatestxtTA {
+    color: #000 !important;
+    font-size: 48px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.solarRatestxtTA2 {
+    margin-top: 200px;
+}
+
+#oppd-footerta-logo img {
+    height: 70px;
+}
+
+@media (max-width: 500px){
+
+    .navContainer .navbar-brandTA {
+        display: inline-block;
+        width: 100%;
+        height: 142px;
+        vertical-align: top;
+        text-align: center;
+        padding: 0;
+    }
+
+    #oppd-logo-ta img {
+        height: 35px;
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .navContainer .header-container .nav-container #mainNavBtnTA {
+        display: inline-block !important;
+        position: absolute !important;
+        right: 2vh !important;
+        top: 20px !important;
+        left: unset !important;
+        background: none;
+        cursor: pointer;
+        z-index: 10001;
+    }
+	
+	/* .oMainContentTA #oRightColumn { */
+        /* padding-left: 0px !important; */
+        /* } */
+		
+	.oMainContentTA .span10 {
+        width: 93%;
+        }
+
+    .showHideMobileNavTA {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        background-color: #FFF;
+        margin-top: -95px;
+    }
+
+    .oMainContentTA li {
+        font-size: 16px;
+    }
+
+    .oMainContentTA h1 {
+        font-size: 48px;
+        text-align: center;
+        line-height: 52px;
+    }
+	
+    .taGrayBox {
+        margin: 0px 0px 0px 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+		/* margin-left: 5px; */
+		/* margin-right: 20px; */
+    }
+	
+	.taGrayBox .span5 {
+    width: 98%;
+	}
+	
+	.taGrayBoxa .span5 {
+    width: 98%;
+	padding: 10px;
+	}
+	
+	.column2TAwidetier .span5 {
+    width: 98%;
+	}
+	
+	.bordertierTA {
+	display: none;
+	}
+	
+	/* .darkerborderTA { */
+    /* display: none; */
+	/* } */
+	
+	.taGrayBox .container-fluid {
+		padding: 15px;
+    }
+
+    .taGrayBox2 {
+        margin: 0px 20px 0px 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+		margin-left: 5px;
+		margin-right: 20px;
+    }
+	
+	.taGrayBox2 .container-fluid {
+		padding: 15px;
+    }
+
+    .taGrayBox3 {
+		margin-left: 5px;
+		margin-right: 20px;
+    }
+	
+	.taGrayBox3 .container-fluid {
+		padding: 15px;
+    }
+	
+	.taGrayBox3 .span5 {
+    width: 100%;
+	}
+	
+	.taGrayBox3a {
+		margin-left: 0px;
+		margin-right: 0px;
+    }
+	
+	.taGrayBox3a .container-fluid {
+		padding: 15px;
+    }
+	
+	.taGrayBox3a .span5 {
+    width: 98%;
+	}
+
+    .taGrayBox4 {
+        margin-left: 5px;
+        margin-right: 20px;
+    }
+	
+	.taGrayBox4 .span5 {
+		width: 100%;
+	}
+	
+	.taGrayBox4a .span5 {
+    width: 98%;
+	padding: 10px;
+	}
+	
+	.taGrayBox5 {
+        margin-left: 5px;
+        /* margin-right: 20px; */
+    }
+	
+	.taGrayBox5 .span12{
+		width: 100% !important;
+    }
+	
+    .taGrayBox .taLogo {
+        width: 70%;
+        float: none;
+        margin-top: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	
+	.taLightGrayBox {
+        margin-left: 5px;
+        margin-right: 20px;
+		padding-bottom: 40px;
+    }
+	.taLightGrayBox2 {
+        margin-left: 5px;
+        margin-right: 20px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+    }
+	
+	.taTierBox {
+		margin-left: 3%;
+}
+
+    .taWhiteBox {
+        min-height: 200px;
+        text-align: center;
+        font-size: 22px;
+        line-height: 28px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .taWhiteBox2 {
+        padding: 0px;
+    }
+
+    .navTA {
+        float: left !important;
+    }
+
+    .row3TA {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .column3TA {
+        padding: 20px;
+    }
+
+    .row4TA {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .solarRatesTA {
+        margin-top: 65px;
+    }
+
+    .solarRatestxtTA {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 24%;
+        margin-right: auto;
+    }
+	
+	.span4TA .span4 {
+		width: 98%;
+		padding: 10px;
+	}
+
+	.fullTA .span12 {
+		width: 90%;
+	}
+	
+	.span4TA .darkerborderTA {
+		border-right: 0px
+	}
+
+	.oMainContentTA .span1 .column {
+		width: 0px;
+	}
+
+    .column2TA.rates1 {
+        background-position: center top 200px;
+        height: 550px;
+    }
+
+    .column2TA.rates2 {
+        background-position: center top 200px;
+        height: 550px;
+    }
+	
+	.taLightGrayBox .span5 {
+		width: 100%;
+	}
+	
+	.column2TAwide .span5 {
+		width: 90%;
+	}
+	
+	.borderTA {
+		border: none;
+	}
+
+    .solarRatestxtTA2 {
+        margin-top: 375px;
+    }
+
+    .column3TA-v2 {
+        border-right: none;
+    }
+
+    .footerTAText {
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+
+    #oppd-footerta-logo img {
+        height: 50px;
+        padding-left: 35px;
+        padding-bottom: 10px;
+    }
+
+    .imageHeaderTAText {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 50px 10px 10px 20px;
+        max-width: 90%;
+    }
+
+    .imageHeaderTAText hr {
+        margin-top: -30px;
+    }
+
+    .imageHeaderTABackground {
+        margin: 25px 0px 20px 0px;
+        height: 95%;
+        width: 95%;
+    }
+
+    .imageHeaderTASubtext {
+        width: 100%;
+       
+    }
+
+    #oLeftColumnTA {
+       min-height: 390px;
+    }
+
+    #oLeftColumnTA ul {
+        margin: 0 0 10px 20px;
+    }
+
+    #oLeftColumnTA li {
+        font-size: 22px;
+        margin: 22px 0;
+		line-height: 24px;
+    }
+
+    #oRightColumnTA {
+        width: calc(136% - 296px);
+    }
+	
+	#oRightColumnTA h2{
+        line-height: 1.1;
+    }
+
+    .col-xs-15,
+    .col-sm-15,
+    .col-md-15,
+    .col-lg-15 {
+       padding-bottom: 20px;
+    }
+	
+	.buttonrowTA {
+	flex-direction: column;
+}
+
+}

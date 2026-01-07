@@ -1,0 +1,12 @@
+/* HTML5 and jQuery Custom Nav by waveinteractive.com */
+
+.headerModulesWrap li,
+.navbar li,
+footer li {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+

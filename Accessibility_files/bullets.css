@@ -1,0 +1,248 @@
+﻿@charset "utf-8";
+
+.tn3e-renovo-gallery {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    line-height: normal;
+    overflow: hidden;
+
+}
+.homeGallery .tn3e-renovo-gallery {
+    position: absolute;
+    width: 1200px;
+    height: 458px;
+}
+.tn3e-renovo-image {
+    position:absolute;
+    left: 00px;
+    top: 00px;
+    width: 100%;
+    height: 125%;
+    cursor:pointer;
+}
+.homeGallery .tn3e-renovo-image {
+    position:absolute;
+    left: 00px;
+    top: 00px;
+    width: 1200px;
+    height: 458px;
+    cursor:pointer;
+}
+.tn3e-renovo-control-bar {
+    position:absolute;
+    width:243px;
+    height:80px; margin-left: -99999px;
+}
+.tn3e-renovo-thumbs ul, .tn3e-renovo-thumbs li {
+    margin: 0;
+}
+.tn3e-renovo-thumbs {
+    position:absolute;
+    width: 50%;
+    height: 30px;
+    right: 35px;
+    bottom: 5px;
+}
+.tn3e-renovo-thumb {
+    background-image:url('tn3e.png');
+    background-position:-264px -80px;
+    width: 25px;
+    height: 25px;
+    cursor:pointer;
+}
+.tn3e-renovo-thumb-over {
+    background-position:-226px -80px;
+}
+.tn3e-renovo-thumb-selected {
+    background-position:-189px -80px;
+    cursor:default;
+}
+.tn3e-renovo-next {
+    position:absolute;
+    background-image:url('tn3e.png');
+    background-position:-20px -3px;
+    width: 13px;
+    height: 17px;
+    right:33px;
+    bottom:26px;
+    cursor:pointer;
+}
+.tn3e-renovo-next:hover {
+    background-position:-20px -23px;
+}
+.tn3e-renovo-prev {
+    position:absolute;
+    background-image:url('tn3e.png');
+    background-position:-2px -3px;
+    width: 13px;
+    height: 17px;
+    left:30px;
+    bottom:26px;
+    cursor:pointer;
+}
+.tn3e-renovo-prev:hover {
+    background-position:-2px -23px;
+}
+.tn3e-renovo-preloader {
+    position:absolute;
+    width: 22px;
+    height: 8px;
+    right:12px;
+    top:5px;
+}
+.tn3e-renovo-text {
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    width: 50%;
+    height: 40px;
+    overflow: hidden;
+}
+.tn3e-renovo-image-title {
+    font-family: Tahoma, Helvetica, sans-serif;
+    color:#3f4146;
+    font-size:12px;
+    width:100%;
+    font-weight:bold;
+}
+.tn3e-renovo-image-description {
+    font-family: Tahoma, Helvetica, sans-serif;
+    color:#3f4146;
+    width:100%;
+    font-size:10px;
+}
+
+.tn3e-renovo-play {
+    position:absolute;
+    background-image:url('tn3e.png');
+    background-position:-2px -80px;
+    left:94px;
+    top:12px;
+    width:57px;
+    height:57px;
+    cursor:pointer;
+}
+.tn3e-renovo-play:hover {
+    background-position:-64px -80px;
+}
+.tn3e-renovo-play-active {
+    background-position:-2px -139px;
+}
+.tn3e-renovo-play-active:hover {
+    background-position:-64px -139px;
+}
+
+.tn3e-renovo-albums {
+    position:absolute;
+    width: 920px;
+    height: 410px;
+    left:20px;
+    top:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    background-image:url('bg.png');
+    background: rgba(0, 0, 0, 0.8); 
+}
+.tn3e-renovo-albums h4 {
+    position: absolute;
+    margin-top: 1.33em;
+    font-weight: bold;
+    left: 34px;
+    top: 10px;
+    font-size: 18px;
+    color: #c7c8c9;
+}
+.tn3e-renovo-inalbums {
+    position:absolute;
+    top: 80px;
+    width: 920px;
+    height: 250px;
+    padding: 20px;
+}
+.tn3e-renovo-album {
+    position:absolute;
+    width: 420px;
+    height: 70px;
+    background-color:#111111;
+    overflow: hidden;
+    cursor:pointer;
+    font-size: medium;
+}
+.tn3e-renovo-album-over {
+    background-color:#222;
+}
+.tn3e-renovo-album-selected {
+    background-color:#cdcdcd;
+    color:#111214;
+    cursor:default;
+}
+.tn3e-renovo-album-image {
+    height: 100%;
+    margin-right: 1em;
+    overflow:hidden;
+    float: left;
+}
+.tn3e-renovo-album-title {
+    font-size:13px;
+    font-weight:bold;
+    margin-top: 1em;
+}
+.tn3e-renovo-album-description {
+    font-size:0.6em;
+    height: 3em;
+    line-height: 1.6em;
+    overflow: hidden;
+}
+.tn3e-renovo-albums-next {
+    position:absolute;
+    background-image:url('tn3e.png');
+    background-position:-217px -1px;
+    width: 97px;
+    height: 37px;
+    right:20px;
+    bottom:20px;
+    cursor:default;
+}
+.tn3e-renovo-albums-next-over {
+    background-position:-217px -40px;
+    cursor:pointer;
+}
+.tn3e-renovo-albums-prev {
+    position:absolute;
+    background-image:url('tn3e.png');
+    background-position:-117px -1px;
+    width: 97px;
+    height: 37px;
+    left:20px;
+    bottom:20px;
+    cursor:default;
+}
+.tn3e-renovo-albums-prev-over {
+    background-position:-117px -40px;
+    cursor:pointer;
+}
+.tn3e-renovo-albums-close {
+    position:absolute;
+    background-image:url('tn3e.png');
+    background-position:-125px -80px;
+    width: 27px;
+    height: 27px;
+    right:20px;
+    top:20px;
+    cursor:pointer;
+}
+.tn3e-renovo-albums-close:hover {
+    background-position:-155px -80px;
+}
+
+/* when javascript is disabled */
+.tn3.album, .tn3.album li {
+    float:left;
+    list-style-type: none;
+    margin:4px;
+}
+.tn3.album div, .tn3.album li h4, .tn3.album li div{
+    display:none;
+}
+

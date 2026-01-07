@@ -1,0 +1,1379 @@
+
+.showHideMainNavGT {
+    display: block;
+}
+
+.showHideMobileNavGT {
+    display: none;
+}
+
+.close-mobile-menuGT {
+    color: #000;
+}
+
+.navGT {
+    float: right !important;
+}
+
+
+.navContainerGT {
+    margin: 0 auto;
+    height: 143px;
+    background-color: #fff;
+}
+
+.navContainerGT .header-container {
+    display: inline-block;
+    width: calc(100% - 250px);
+}
+
+.navContainer .navbar-brandGT {
+    display: inline-block;
+    width: 200px;
+    height: 142px;
+    vertical-align: top;
+    text-align: center;
+    padding: 0;
+	position: absolute;
+    z-index: 1;
+	top: 40px;
+    left: 100px;
+}
+
+#navWrapperGT.nav-container {
+    padding-top: 30px;
+}
+
+#navWrapperGT a {
+    text-decoration: underline !important;
+}
+
+#navWrapperGT a:after {
+    display: none !important;
+
+}
+
+#oppd-logo-gt img {
+    margin-top: 30px;
+    height: 90px;
+}
+
+.gtPageContent {
+	color: #000;
+}
+
+.gtPageContent p{
+	font-size: 16px;
+	margin: 10px;
+}
+
+.gtPageContent .span3 {
+	box-shadow: none;
+	border-radius: 0;
+	width: 25%;
+}
+
+.gtPageContent .gt3Column {
+	margin-left: -35px;
+	margin-right: -23px;
+}
+
+.gtPageContent .gt3Column2 {
+	margin-left: -35px;
+	margin-right: -23px;
+}
+
+.gtPageContent .gt3Column3 {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+
+.gtPageContent .gt3Column .span4 {
+	min-height: 400px;
+	/* margin: 20px 20px 20px 20px; */
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+	width: 31%;
+}
+
+.gtPageContent .gt3Column1 .span4 {
+	min-height: 300px;
+	margin: 20px 20px 20px 20px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+	width: 28%;
+}
+
+.gtPageContent .gt3Column2 .span4 {
+	min-height: 380px;
+	/* margin: 20px 20px 20px 20px; */
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+	width: 31%;
+}
+
+.gtPageContent .gt3Column3 .span4 {
+	min-height: 250px;
+	/* margin: 20px 20px 20px 20px; */
+	display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    overflow: hidden;
+	width: 31%;
+	padding-top: 40px;
+}
+
+.gtPageContent .gt3Column1 hr{
+    margin: auto;
+    border: 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+	width: 80%;
+}
+
+.gtPageContent .gt3Column1 li{
+	padding-bottom: 10px;
+}
+
+.gtPageContent .gt3Column1 ul li:first-child{
+	margin-bottom: -10px;
+}
+
+.gtPageContent .gt3Column1.ul{
+    padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.gtPageContent .gt3Column1 .checkMark1{
+    background: url('/images/gt/check-mark-circle-silver.svg') no-repeat left top;
+    height: 64px;
+    /* padding-top: 7px; */
+    padding-left: 44px;
+	list-style-type: none;
+	line-height: 26px;
+
+}
+
+.gtPageContent .gt3Column1 .checkMark2{
+    background: url('/images/gt/check-mark-circle-gold.svg') no-repeat left top;
+    height: 64px;
+    /* padding-top: 7px; */
+    padding-left: 44px;
+	list-style-type: none;
+	line-height: 26px;
+}
+
+.gtPageContent .gt3Column1 .checkMark3{
+    background: url('/images/gt/check-mark-circle-emerald.svg') no-repeat left top;
+    height: 64px;
+    /* padding-top: 7px; */
+    padding-left: 44px;
+	list-style-type: none;
+	line-height: 26px;
+}
+
+.gtPageContent .gt3Column .span4 img{
+	max-width: 300px;
+	border-radius: 0;
+	flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.gtPageContent .gt3Column2 .span4 img{
+	max-width: 300px;
+	border-radius: 0;
+	flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.gtImagePadding {
+	padding-top: 20px;
+}
+
+.gtPageContent .gt3Column .span4.column:nth-child(even) { 
+	background-color: #FFFFFF;
+}
+
+.gtPageContent .gt3Column .span4.column:nth-child(odd) {
+	background-color: #E6E7E9;
+}
+
+.gtPageContent .gt3ColumnGraph {
+	background-color: #B3D4B4;
+    min-height:	100px;
+	clear: both;
+} 
+
+.gtPageContent .gt3ColumnGraphTxt {
+	background-color: #B3D4B4;
+    min-height:	100px;
+	/* margin-left: -40px; */
+} 
+
+.gtPageContent .gtFullWidth {
+	margin: 50px;
+	/* min-height: 100px; */
+}
+
+.gtPageContent .gtFullWidth hr{
+	margin: auto;
+    border: 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+	width: 80%;
+}
+
+.gtPageContent .gtFullWidth1 {
+	margin: 0px;
+	min-height: 100px;
+}
+
+.gtPageContent .gtFullWidth1 hr{
+	margin-left: -33px;
+	margin-bottom: 50px;
+    border: 0;
+    border-top: 1px solid #000;
+    /* border-bottom: 1px solid #000; */
+	width: 104.5%;
+}
+
+.GTtextbackground {
+	background: rgba(255, 255, 255, 0.8);
+    /* opacity: 0.6; */
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+    height: 80%;
+    /* border-radius: 50px 50px 50px 50px; */
+	padding: 30px;
+	width: 500px;
+}
+
+.GTtextbackground button{
+    background-color: #63A767;
+    color: #FFF;
+    font-size: 14px;
+    border: none;
+    border-radius: 35px;
+    padding: 10px 10px 10px 10px;
+}
+
+.GTtextbackground hr {
+    width: 50px;
+    border-top: 5px solid #000;
+    margin-top: -15px;
+}
+
+.gtDollarAmount {
+	background-color: #63a767;
+	color: #fff; 
+	width: auto; 
+	height: 40px; 
+	text-align: center; 
+	font-size: 28px;
+	margin-left: -35px;
+    margin-right: -5px;
+}
+
+.gtDollarAmountText {
+	padding-top: 8px;
+}
+
+.gtPageContent .gt2Column {
+	margin-bottom: 50px;
+}
+
+.gt2Column .span1 {
+	width: 0;
+}
+
+.gt2Column .span5 {
+	width: 45%;
+}
+
+.gt2Column img {
+	max-width: 400px;
+}
+
+.gtPageContent .gt3ColumnGraph .span4 {
+	width: 30%;
+}
+
+/*.gtPageContent .gt3ColumnGraph .span4.column:nth-child(3) {
+	padding-top: 20px;
+} */
+
+.gtPageContent .gt3ColumnGraph .span4 img{
+	max-width: 250px;
+}
+
+.gtPageContent .gt4Column {
+	background-image: url("/images/gt/project_selection_background.jpg");
+	background-color: rgba(255,255,255,0.6);
+	background-blend-mode: lighten;
+	max-height: 400px;
+	padding-top: 50px;
+}
+
+.gtPageContent .gt4Column .container-fluid {
+	padding-left: 0px;
+}	
+
+.gtPageContent .gt4Column1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: -33px;
+    margin-right: -5px;
+}
+
+.gtPageContent .gt4Column1 .span3.column:nth-child(1) {
+	background-color: #FFFFFF;
+	border: 1px solid #73AF76;
+}
+
+.gtPageContent .gt4Column1 .span3.column:nth-child(2) {
+	background-color: #73AF76;
+}
+
+.gtPageContent .gt4Column1 .span3.column:nth-child(3) {
+	background-color: #8CBD8D;
+}
+
+.gtPageContent .gt4Column1 .span3.column:nth-child(4) {
+	background-color: #B3D4B4;
+}
+
+.gtPageContent .gt4Column2 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.gtPageContent .gt4Column2 .span3 {
+	height: auto;
+	width: 25%;
+}
+
+.gtPageContent .gt4Column1 .span3 {
+	max-height: 250px;
+}
+
+.gtPageContent .gt2Column1 .span8 {
+	width: 50%;
+	margin: 5%;
+	/* padding-left: 200px; */
+}
+
+.gtPageContent .gt4Column2 h2{
+	font-size: 22px;
+	color: #000;
+	line-height: 1em;
+}
+
+.gtPageContent .gt2Column1 .span4 {
+	margin-left: 200px;
+}
+
+.gtPageContent button {
+    background-color: #63A767;
+    color: #FFF;
+    font-size: 18px;
+    border: none;
+    border-radius: 35px;
+    padding: 10px 30px 10px 30px;
+}
+
+.gtPageContent .buttonblack {
+    background-color: #000;
+    color: #FFF;
+    font-size: 18px;
+    border: none;
+    border-radius: 35px;
+    padding: 10px 30px 10px 30px;
+}
+
+.oMainContentGT {
+    /* margin-top: -120px; */
+    min-height: 500px;
+    box-sizing: border-box;
+}
+
+.oMainContentGT * {
+    box-sizing: border-box;
+}
+
+.oMainContentGT h1 {
+	color: #000;
+	font-size: 72px;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.oMainContentGT hr {
+    border-top: 1px solid #000;
+}
+.oMainContentGT  h2 {
+	color: #F7B647;
+	font-size: 48px;
+    font-weight: 400;
+    text-transform: none;
+	line-height: 1.2em;
+}
+
+.oMainContentGT  p {
+	color: #000;
+	font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+	line-height: 1.5em;
+}
+
+.oMainContentGT button {
+    background-color: #60895C;
+    color: #FFF;
+    font-size: 14px;
+    border: none;
+    border-radius: 35px;
+    padding: 10px 10px 10px 10px;
+}
+
+.oMainContentGT .buttonwhite {
+    background-color: #FFF;
+    color: #E96D1C;;
+    font-size: 22px;
+    border: none;
+    border-radius: 35px;
+    padding: 20px 60px 20px 60px;
+}
+
+.footerGT .buttonwhite {
+    background-color: #FFF;
+    color: #000;;
+    font-size: 22px;
+    border: none;
+    border-radius: 35px;
+    padding: 20px 60px 20px 60px;
+}
+
+.oMainContentGT .buttonwhiteborder {
+    background-color: #FFF;
+    color: #E96D1C;
+    font-size: 22px;
+    border: 1px solid #E96D1C;
+    border-radius: 35px;
+    padding: 20px 60px 20px 60px;
+}
+
+.oMainContentGT ul{
+    padding-left: 10px;
+}
+
+.oMainContentGT li{
+    line-height: 20px;
+}
+
+.oMainContentGT ol li::marker {
+    color: #E46B1F;
+    font-weight: 600;
+}
+
+/* .oMainContentGT .gt2Column li { */
+	/* line-height: 20px; */
+/* } */
+
+.membershipGT li {
+	padding: 10px 0 0 0;
+    margin: 1px 0;
+    line-height: 20px;
+}
+
+.membershipGT1 li {
+	padding: 10px 0 0 0;
+    margin: 1px 0;
+    line-height: 20px;
+}
+
+.containerGT {
+    margin-bottom: -30px;
+    min-height: 500px;
+}
+
+.headerGT {
+	margin-top: -77px;
+	margin-left: -23px;
+	margin-bottom: -10px;
+}
+
+.headerGT img{
+	width: 100%;
+}
+
+.imageHeaderGT {
+    background-image: url(/images/gt/trade_ally_contractors.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 120px;
+    min-height: 700px;
+    position: relative;
+}
+
+.imageHeaderDirGT {
+    background-image: url(/images/gt/gt_directory_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 120px;
+    min-height: 700px;
+    position: relative;
+}
+
+.imageHeaderGTBackground {
+    background-color: #FFF;
+    opacity: 0.6;
+    width: 60%;
+    position: absolute;
+    top: -120px;
+    left: 500px;
+    margin: 50px 0px 20px 0px;
+    height: 80%;
+    /* border-radius: 0px 50px 50px 0px; */
+}
+
+.imageHeaderGTText {
+    color: #000;
+    font-size: 28px;
+    line-height: 35px;
+    padding: 10px;
+    position: absolute;
+    top: -60px;
+    right: 200px;
+	background:rgba(255,255,255, 0.75);
+    /* width: 100%;  This was affecting page width*/
+    height: 500px;
+	max-width: 600px;
+    margin: 60px 20px 20px 40px;
+	padding-left: 35px;
+}
+
+.imageHeaderGTSubtext {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.imageHeaderGTText hr {
+    width: 110px;
+	border-top: 10px solid #000;
+	margin-left: 10px;
+}
+
+.imageHeaderGTText h1 {
+    line-height: 65px;
+}
+
+.greenBackgroundGT {
+	background-color: #B3D4B4;
+}
+
+.grayBackgroundGT {
+	background-color: #F0F0F1;
+	color: #63A767;
+}
+
+.greenBackgroundGT .buttonwhite {
+    background-color: #FFF;
+    color: #63A767;;
+    font-size: 22px;
+    border: none;
+    border-radius: 35px;
+    padding: 20px 60px 20px 60px;
+}
+
+.shortLeftLongRightGT p{
+	color: #fff;
+}
+
+.shortLeftLongRightGT {
+	box-shadow: inset 0 0 0 1000px rgba(18,1,1,.37);
+}
+
+#oLeftColumnGT {
+    width: 600px;
+    background: #f7f7f7;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    min-height: 1400px;
+   
+}
+
+#oLeftColumnGT ul {
+    padding: 0;
+    margin: 0 0 10px 120px;
+
+}
+
+#oLeftColumnGT li {
+    list-style-type: none;
+    font-size: 28px;
+    line-height: 35px;
+    margin: 40px 0;
+}
+
+#oLeftColumnGT hr {
+    width: 100px;
+    border-top: 2px solid #e66b1e;
+    margin-top: -15px;
+
+}
+
+#oLeftColumnGT .active {
+    color: #e66b1e;
+    font-weight: 600;
+
+}
+
+
+
+#oRightColumnGT {
+    width: calc(70% - 296px);
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 40px 40px 80px;
+}
+
+#oRightColumnGT p {
+    font-size: 18px;
+}
+
+.footerGT {
+	display: inline-block;
+    color: #fff;
+    min-height: 100px;
+	margin-top: 80px;
+}
+
+.footerGT1 {
+	display: inline-block;
+	font-size: 22px;
+	margin-right: 200px;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+.footerGT2 {
+	display: inline-block;
+}
+
+.footerGT2 img{
+	width: 225px;
+}
+
+.footerGT3 {
+	display: inline-block;
+	font-size: 18px;
+	margin-left: 200px;
+	margin-top: -4px;
+	position: absolute;
+}
+
+.footerGT3 li{
+	font-size: 22px;
+	line-height: 1.3em;
+	
+}
+
+.footerGTText {
+    /* margin-left: 500px; */
+    /* margin-top: -52px; */
+}
+
+/* removes horizontal scrollbar which appeared after adding bootstrap */
+body {
+	overflow-x: hidden;
+}
+
+/* Create two equal columns that floats next to each other */
+.column2GT {
+    float: left;
+    width: 50%;
+    padding: 50px;
+    font-size: 22px;
+    line-height: 1.5em;
+    border-right: 3px solid #F2F2F2;
+    height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.column2GT.rates1 {
+    border-right: none;
+    background-image: url(/images/gt/circle-outline.svg);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: center top 100%;
+}
+
+.column2GT.rates2 {
+    border-right: none;
+    background-image: url(/images/gt/circle-outline.svg);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: center top 100%;
+}
+
+.noBorder {
+    border-right: none;
+}
+
+/* Clear floats after the columns */
+.row2GT:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column2GT {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/* Create three equal columns that floats next to each other */
+
+.column3GT1 {
+  float: left;
+  width: 33.33%;
+}
+
+.row3GT1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+/* Clear floats after the columns */
+.row3GT1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column3GT1 {
+    width: 100%;
+  }
+}
+
+.column3GT-v2 {
+    float: left;
+    width: 33.33%;
+    border-right: 3px solid #F2F2F2;
+    padding: 10px;
+}
+
+.column3GT-v2:last-child {
+    border: none;
+}
+
+.row3GT-v2 {
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+    display: block
+}
+
+    /* Clear floats after the columns */
+.row3GT-v2:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column3GT-v2 {
+        width: 100%;
+    }
+}
+
+.column4GT {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row4GT:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column4GT {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+.textBox4col {
+    min-height: 500px;
+    background-color: #E5E5E5;
+    color: #000;
+    border-radius: 25px;
+    font-size: 28px;
+    line-height: 35px;
+    padding-bottom: 35px;
+}
+
+/*Five Column Layout*/
+
+
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.col5 img {
+    padding-bottom: 20px;
+}
+
+/* Slide Down Info Tabs */
+
+.gtTierBox {
+    background-color: #E3E3E3;
+    border-radius: 12px;
+    font-size: 22px;
+    max-width: 300px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding: 10px;
+}
+
+.tierLabel {
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+}
+
+.gtTierBox li {
+    font-size: 16px;
+    text-align: left;
+    line-height: 22px;
+}
+
+
+    /* Static Info Tabs */
+.gtBox {
+    background-color: #FFF;
+    border-radius: 12px;
+    font-size: 22px;
+    max-width: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+}
+
+.gtBox li {
+    font-size: 22px;
+    padding: 5px;
+    text-align: left;
+}
+
+.gtBox ul {
+    padding-top: 20px;
+    padding-left:30px;
+}
+
+.gtGrayBox {
+    background-color: #4b4a4b;
+    margin: 120px 120px 0px 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: #fff;
+    text-align: left;
+}
+
+.gtGrayBox .gtLogo {
+    float: right;
+    max-width: 500px;
+    margin-top: -60px;
+}
+
+.gtGrayBox2 {
+    background-color: #4b4a4b;
+    margin: 120px 120px 0px 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: #fff;
+    min-height: 1500px;
+}
+
+.gtGrayBox2 hr {
+    width: 200px;
+}
+
+.gtGrayBox3 {
+    min-height: 200px;
+    text-align: center;
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 100px;
+}
+
+.gtGrayBox4 {
+    margin-left: 300px;
+    margin-right: 300px
+}
+
+.gtWhiteBox {
+    min-height: 200px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 35px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.gtWhiteBox2 {
+    text-align: center;
+    margin-top: 80px;
+    padding: 100px;
+}
+
+.cbox1 {
+    background-image: url(/images/gt/solar_card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 545px;
+}
+
+.cbox2 {
+    background-image: url(/images/gt/hvac_card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 545px;
+}
+
+.cbox3 {
+    background-image: url(/images/gt/lighting_card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 545px;
+}
+
+.cboxText1 {
+    margin-top: 50px;
+}
+
+.cboxText2 {
+    margin-top: 50px;
+    width: 100px;
+}
+
+.solarRatesGT {
+    margin-top: 165px;
+}
+
+.solarRatestxtGT {
+    color: #000 !important;
+    font-size: 48px;
+}
+
+.solarRatestxtGT2 {
+    margin-top: 200px;
+}
+
+#oppd-footergt-logo img {
+    height: 70px;
+}
+
+@media (max-width: 500px){
+
+    .navContainer .navbar-brandGT {
+        display: inline-block;
+        /* width: 100%; */
+        height: 142px;
+        vertical-align: top;
+        text-align: center;
+        padding: 0;
+		margin-top: -20px;
+    }
+
+    #oppd-logo-gt img {
+        height: 35px;
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-left: -50px;
+    }
+
+	.footerGT1 {
+		margin-right: 0px;
+	}
+	
+	.footerGT3 {
+		display: unset;
+		font-size: 18px;
+		margin-left: 200px;
+		margin-top: -4px;
+		position: relative;
+	}
+}
+
+@media only screen and (max-width: 970px) {
+    .navContainer .header-container .nav-container #mainNavBtnGT {
+        display: inline-block !important;
+        position: absolute !important;
+        right: 2vh !important;
+        top: 20px !important;
+        left: unset !important;
+        background: none;
+        cursor: pointer;
+        z-index: 10001;
+    }
+
+    .showHideMobileNavGT {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        background-color: #FFF;
+        margin-top: -95px;
+    }
+	
+	.oMainContentGT {
+        margin-left: -8px;;
+    }
+
+    .oMainContentGT li {
+        font-size: 14px;
+		line-height: 22px;
+    }
+
+    .oMainContentGT h1 {
+        font-size: 48px;
+        text-align: center;
+        line-height: 52px;
+    }
+
+    .gtGrayBox {
+        margin: 120px 20px 0px 20px;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .gtGrayBox2 {
+        margin: 80px 20px 0px 20px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .gtGrayBox3 {
+        padding: 10px;
+    }
+
+    .gtGrayBox4 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .gtGrayBox .gtLogo {
+        width: 70%;
+        float: none;
+        margin-top: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gtWhiteBox {
+        min-height: 200px;
+        text-align: center;
+        font-size: 22px;
+        line-height: 28px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .gtWhiteBox2 {
+        padding: 0px;
+    }
+
+    .navGT {
+        float: left !important;
+    }
+
+    .row3GT1 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+	
+	.gt2Column .span5 {
+		width: 90%;
+		padding: 6px;
+		margin-left: 15px;
+	}
+
+	.gt2Column img {
+		max-width: 350px;
+	}
+
+    .column3GT1 {
+        padding: 20px;
+    }
+
+    .row4GT {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .solarRatesGT {
+        margin-top: 65px;
+    }
+
+    .solarRatestxtGT {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 25%;
+        margin-right: auto;
+    }
+
+    .column2GT.rates1 {
+        background-position: center top 200px;
+        height: 550px;
+    }
+
+    .column2GT.rates2 {
+        background-position: center top 200px;
+        height: 550px;
+    }
+
+    .solarRatestxtGT2 {
+        margin-top: 375px;
+    }
+
+    .column3GT-v2 {
+        border-right: none;
+    }
+	
+	.footerGT1 {
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+
+	.footerGT2 {
+        margin-left: 15%;
+        margin-top: 30px;
+    }
+	
+	.footerGT3 ul{
+        margin-left: 15% !important;
+        margin-top: 30px;
+    }
+
+    .footerGTText {
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+
+    #oppd-footergt-logo img {
+        height: 50px;
+        padding-left: 35px;
+        padding-bottom: 10px;
+    }
+
+    .imageHeaderGTText {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 50px 10px 10px 20px;
+        max-width: 90%;
+    }
+
+    .imageHeaderGTText hr {
+        margin-top: -30px;
+    }
+
+    .imageHeaderGTBackground {
+        margin: 25px 0px 20px 0px;
+        height: 95%;
+        width: 95%;
+    }
+
+    .imageHeaderGTSubtext {
+        width: 100%;
+       
+    }
+
+    #oLeftColumnGT {
+       min-height: 500px;
+    }
+
+    #oLeftColumnGT ul {
+        margin: 0 0 10px 20px;
+    }
+
+    #oLeftColumnGT li {
+        font-size: 22px;
+        margin: 22px 0;
+    }
+
+    #oRightColumnGT {
+        width: calc(136% - 296px);
+    }
+
+    .col-xs-15,
+    .col-sm-15,
+    .col-md-15,
+    .col-lg-15 {
+       padding-bottom: 20px;
+    }
+	
+	.gtPageContent .gt4Column2 .span3 {
+		height: auto;
+		width: 95%;
+	}
+	
+    .gtPageContent .gt3Column {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.gtPageContent .gt3Column2 {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.gtPageContent .gt3Column3 {
+		margin-left: 20px;
+		margin-right: 20px;
+		padding-top: 0px;
+	}
+	
+	.gtPageContent .span3 {
+		width: 90%;
+	}
+	
+	.gtPageContent .gt3Column .span4 {
+		width: 95%;
+	}
+	
+	.gtPageContent .gt3Column1 .span4 {
+		width: 72%;
+	}
+	
+	.gtPageContent .gt3Column2 .span4 {
+		width: 95%;
+	}
+	
+	.gtPageContent .gt3Column3 .span4 {
+		width: 95%;
+		min-height: 20px;
+	}
+	
+	.gtPageContent .span12 {
+		width: 90%;
+		margin-left: 10px !important;
+	}
+	
+	.gtPageContent .gtFullWidth1 .span12 {
+		width: 90%;
+	}
+
+	.gtPageContent .gtFullWidth1 hr{
+		width: auto;
+		margin-right: -33px;
+	}
+
+	.gtPageContent .gt3ColumnGraph .span4 {
+		width: 95%;
+		margin-left: 10px;
+	}
+	
+	.gtPageContent .gt2Column1 .span4 {
+		margin-left: 10px;
+	}
+	
+	.gtPageContent .gt2Column1 .span8 {
+		margin-left: 10px;
+		width: 90%;
+	}
+	
+	.font-size-48 {
+		font-size: 32px  !important;
+	}
+	
+	.font-size-28 {
+		font-size: 22px  !important;
+	}
+	
+	.imageHeaderGTText {
+		position: unset;
+		margin-top: -35px;
+	}
+	
+	.imageHeaderGTText hr{
+		margin-top: 10px;
+	}
+	
+	.imageHeaderGTText button{
+		margin-top: -67px;
+	}
+	
+	.headerGT {
+		margin-top: 50px;
+	}
+	
+	.headerGT p{
+		margin: 0px;
+	}
+	
+	#navWrapperGT {
+		display: none;
+	}
+	
+	.gtPageContent .gt4Column {
+		height: auto;
+		max-height: fit-content;
+	}
+}
